@@ -1,0 +1,30 @@
+{
+  "name": "eye_tracking_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcherHuang/eye_tracking_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArcherHuang/eye_tracking_api/issues"
+  },
+  "homepage": "https://github.com/ArcherHuang/eye_tracking_api#readme",
+  "dependencies": {
+    "@azure/identity": "^1.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

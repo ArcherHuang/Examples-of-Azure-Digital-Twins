@@ -1,0 +1,129 @@
+{
+  "@context": [
+    "dtmi:dtdl:context;2"
+  ],
+  "@id": "dtmi:itri:cms:RPCstat;9",
+  "@type": "Interface",
+  "displayName": "RPC STATS 9",
+  "description": "Reports current RPC and provides desired RPC threshole control.",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "threshole5um",
+      "displayName": "Particle size 5 um",
+      "description": "RPC Particle Counts.",
+      "schema": "long"
+    },
+    {
+      "@type": "Property",
+      "name": "particle5um",
+      "schema": "long",
+      "displayName": "Set 5 um Target RPC Threshole",
+      "description": "Allows to remotely specify the desired target RPC."
+    },
+    {
+      "@type": "Property",
+      "name": "threshole3um",
+      "displayName": "Particle size 3 um",
+      "description": "RPC Particle Counts.",
+      "schema": "long"
+    },
+    {
+      "@type": "Property",
+      "name": "particle3um",
+      "schema": "long",
+      "displayName": "Set 3 um Target RPC Threshole",
+      "description": "Allows to remotely specify the desired target RPC."
+    },
+    {
+      "@type": "Property",
+      "name": "threshole1um",
+      "displayName": "Particle size 1 um",
+      "description": "RPC Particle Counts.",
+      "schema": "long"
+    },
+    {
+      "@type": "Property",
+      "name": "particle1um",
+      "schema": "long",
+      "displayName": "Set 1 um Target RPC Threshole",
+      "description": "Allows to remotely specify the desired target RPC."
+    },
+    {
+      "@type": "Property",
+      "name": "threshole05um",
+      "displayName": "Particle size 0.5 um",
+      "description": "RPC Particle Counts.",
+      "schema": "long"
+    },
+    {
+      "@type": "Property",
+      "name": "particle05um",
+      "schema": "long",
+      "displayName": "Set 0.5 um Target RPC Threshole",
+      "description": "Allows to remotely specify the desired target RPC."
+    },
+    {
+      "@type": "Property",
+      "name": "rpcAlarm",
+      "schema": "integer",
+      "displayName": "RPC over threshole",
+      "description": "Any of 4 RPC particle sensor over threshole"
+    },
+    {
+      "@type": "Property",
+      "name": "featureId",
+      "schema": "integer",
+      "displayName": "Room ID",
+      "description": "what room  RPC allocated"
+    },
+    {
+      "@type": "Command",
+      "name": "settimetowatch",
+      "displayName": "T1 WatchTime",
+      "description": "Allows to remotely specify RPC WatchTime default 715."
+    },
+    {
+      "@type": "Command",
+      "name": "settimetosleep",
+      "displayName": "T2 SleepTime",
+      "description": "Allows to remotely specify RPC SleepTime."
+    },
+    {
+      "@type": "Property",
+      "name": "timetowatch",
+      "schema": "integer",
+      "displayName": "T1 WatchTime",
+      "description": "Allows to remotely specify RPC WatchTime default 715."
+    },
+    {
+      "@type": "Property",
+      "name": "timetosleep",
+      "schema": "integer",
+      "displayName": "T2 SleepTime",
+      "description": "Allows to remotely specify RPC SleepTime."
+    },
+    {
+      "@type": "Property",
+      "name": "axisX",
+      "schema": "integer",
+      "displayName": "Set Marker Axis X",
+      "description": "Allows to set Marker Axis X."
+    },
+    {
+      "@type": "Property",
+      "name": "axisY",
+      "schema": "integer",
+      "displayName": "Set Marker Axis Y",
+      "description": "Allows to set Marker Axis Y."
+    },
+    {
+      "@type": "Property",
+      "name": "timestamp",
+      "schema": "long",
+      "displayName": "telemetry delivery or receive time ",
+      "description": "show msg delivery or receive time"
+    }
+
+  ]
+}

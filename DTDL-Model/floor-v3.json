@@ -1,0 +1,20 @@
+{
+  "@id": "dtmi:itri:cms:Floor;3",
+  "@type": "Interface",
+  "displayName": "Floor Interface Model",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "name": "floorName",
+      "@type": "Property",
+      "displayName": "Floor's Name",
+      "description": "Floor's Name",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "name": "rooms",
+      "target": "dtmi:itri:cms:Room;3"
+    }
+  ]
+}

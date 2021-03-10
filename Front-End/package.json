@@ -1,0 +1,93 @@
+{
+  "name": "eye_tracking_vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "npx serve dist -s"
+  },
+  "dependencies": {
+    "@azure/event-hubs": "^5.3.1",
+    "@azure/identity": "^1.1.0",
+    "@azure/msal-node": "^1.0.0-beta.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "axios": "^0.20.0",
+    "azure-maps-control": "^2.0.31",
+    "azure-maps-indoor": "^0.1.0",
+    "bootstrap": "^4.5.2",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.0.0",
+    "d3": "^6.2.0",
+    "http-proxy-middleware": "^1.0.3",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "popper.js": "^1.16.1",
+    "sweetalert2": "^10.3.5",
+    "util": "^0.12.3",
+    "uuid": "^3.4.0",
+    "v-tooltip": "^2.0.3",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.0",
+    "vue-js-modal": "^2.0.0-rc.6",
+    "vue-json-pretty": "^1.7.1",
+    "vue-plugin-load-script": "^1.3.2",
+    "vue-router": "^3.2.0",
+    "vue-simple-alert": "^1.1.1",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/airbnb"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-param-reassign": [
+        2,
+        {
+          "props": false
+        }
+      ],
+      "no-underscore-dangle": [
+        "error",
+        {
+          "allow": [
+            "_children"
+          ]
+        }
+      ]
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
