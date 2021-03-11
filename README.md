@@ -56,12 +56,12 @@ The following instructions will get you a copy of the project and the setting ne
      * System.Net.Http  v4.3.4
 * PnP Device
   * Python 3.7 
-  * azure-core 1.9.0
-  * azure-eventhub 5.2.0
-  * azure-iot-device 2.4.0
-  * azure-iot-hub 2.2.3
-  * async-timeout 3.0.1
-  * cryptography 3.3.1
+    * azure-core 1.9.0
+    * azure-eventhub 5.2.0
+    * azure-iot-device 2.4.0
+    * azure-iot-hub 2.2.3
+    * async-timeout 3.0.1
+    * cryptography 3.3.1
 
 ### Clone
 * Clone this repository to your local machine
