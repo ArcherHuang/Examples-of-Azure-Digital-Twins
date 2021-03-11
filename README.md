@@ -169,3 +169,4 @@ The following instructions will get you a copy of the project and the setting ne
 * [Huang, Cheng-Chuan](https://github.com/ArcherHuang)
 
 # License
+Azure Digital Twins for Remote Particle Counter is licensed under the [MIT](./LICENSE) license.
