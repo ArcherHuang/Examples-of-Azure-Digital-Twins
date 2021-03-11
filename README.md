@@ -9,7 +9,7 @@
 - [Dashboard](#dashboard)
 - [Contributing](#contributing)
 - [License](#license)
-- 
+
 # Purpose
 This project contains a sample for working with Azure Digital Twins:
 * A building scenario sample written in Python, C# and Node.js. The sample can be used to set up and simulate a full end-to-end scenario with Azure Digital Twins
