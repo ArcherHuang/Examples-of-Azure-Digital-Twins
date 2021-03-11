@@ -37,7 +37,7 @@ The sample repo contains:
 | DTDL-Model | Models for RPC Azure Digital Twins are defined using the Digital Twins Definition language (DTDL). |
 | Front-End | This `Azure Digital Twins Viewer` serves as a front-end to the Azure Digital Twins spatial intelligence graph. It provides the following features:(1) Visualizing the relationship between floor, rooms and rpc devices created in the Azure Digital Twins model (2) Add and Delete rpc Devices (3) Viewing properties, telemetries and Commands of models (4) Viewing telemetry data of rpc Devices (5) Manage models (Upload and Delete) (6) Show rpc Devices location and status on the map (7) Set the threshold values from the dashboard for all rpcs |
 | Back-End/Proxy | Setup a system assigned identity to allow proxy to access Azure Digital Twins Service. |
-| PnP Device | Sample Source Code for Remote Particle Counter Device, which reports Status to and receives Command from Iot Hub through Azure Digital Twins. |
+| PnP Device | Sample Source Code for Remote Particle Counter Device, which reports Status to and receives Command from/to Azure Digital Twins through Iot Hub. |
 
 # How to use
 The following instructions will get you a copy of the project and the setting needed to run the back-end server on your local machine.
