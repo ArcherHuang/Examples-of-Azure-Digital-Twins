@@ -68,7 +68,7 @@ The Digital Twins Definition Language (DTDL) is a language for describing models
 }
 ```
 
-* RPC State
+* Remot Particle Counter(RPC) State
   * The RPC State model describes a Remote Particle Counter's device capabilities such as it's status(property) as well as the commands it can accept which can be used for remote monitoring and control .
 ```
 {
