@@ -11,7 +11,7 @@
       "@type": "Property",
       "name": "threshole5um",
       "displayName": "Particle size 5 um",
-      "description": "RPC Particle Counts.",
+      "description": "RPC Particle Size reach counts.",
       "schema": "long"
     },
     {
@@ -19,13 +19,13 @@
       "name": "particle5um",
       "schema": "long",
       "displayName": "Set 5 um Target RPC Threshole",
-      "description": "Allows to remotely specify the desired target RPC."
+      "description": "remote set alarm when target RPC reach limit counts."
     },
     {
       "@type": "Property",
       "name": "threshole3um",
       "displayName": "Particle size 3 um",
-      "description": "RPC Particle Counts.",
+      "description": "RPC Particle Size reach Counts.",
       "schema": "long"
     },
     {
@@ -33,13 +33,13 @@
       "name": "particle3um",
       "schema": "long",
       "displayName": "Set 3 um Target RPC Threshole",
-      "description": "Allows to remotely specify the desired target RPC."
+      "description": "remote set alarm when target RPC reach limit counts."
     },
     {
       "@type": "Property",
       "name": "threshole1um",
       "displayName": "Particle size 1 um",
-      "description": "RPC Particle Counts.",
+      "description": "RPC Particle Size reach Counts.",
       "schema": "long"
     },
     {
@@ -47,13 +47,13 @@
       "name": "particle1um",
       "schema": "long",
       "displayName": "Set 1 um Target RPC Threshole",
-      "description": "Allows to remotely specify the desired target RPC."
+      "description": "remote set alarm when target RPC reach limit counts."
     },
     {
       "@type": "Property",
       "name": "threshole05um",
       "displayName": "Particle size 0.5 um",
-      "description": "RPC Particle Counts.",
+      "description": "RPC Particle Size reach Counts.",
       "schema": "long"
     },
     {
@@ -61,68 +61,54 @@
       "name": "particle05um",
       "schema": "long",
       "displayName": "Set 0.5 um Target RPC Threshole",
-      "description": "Allows to remotely specify the desired target RPC."
+      "description": "remote set alarm when target RPC reach limit counts."
     },
     {
       "@type": "Property",
       "name": "rpcAlarm",
       "schema": "integer",
       "displayName": "RPC over threshole",
-      "description": "Any of 4 RPC particle sensor over threshole"
+      "description": "Turn On/off alarm when any of 4 RPC particle sensor reach threshole"
     },
     {
       "@type": "Property",
       "name": "featureId",
       "schema": "integer",
       "displayName": "Room ID",
-      "description": "what room  RPC allocated"
+      "description": "room where RPC is allocated"
     },
     {
       "@type": "Command",
       "name": "settimetowatch",
-      "displayName": "T1 WatchTime",
-      "description": "Allows to remotely specify RPC WatchTime default 715."
+      "displayName": "Set RPC WatchTime",
+      "description": "Remote Set RPC sampling Frequence default 715."
     },
     {
       "@type": "Command",
       "name": "settimetosleep",
-      "displayName": "T2 SleepTime",
-      "description": "Allows to remotely specify RPC SleepTime."
+      "displayName": "Set RPC SleepTime",
+      "description": "Remote Set RPC sampleing activatated interval Time."
     },
     {
       "@type": "Property",
       "name": "timetowatch",
       "schema": "integer",
-      "displayName": "T1 WatchTime",
-      "description": "Allows to remotely specify RPC WatchTime default 715."
+      "displayName": "RPC WatchTime",
+      "description": "Specify RPC sampling Frequence default 715."
     },
     {
       "@type": "Property",
       "name": "timetosleep",
       "schema": "integer",
-      "displayName": "T2 SleepTime",
-      "description": "Allows to remotely specify RPC SleepTime."
-    },
-    {
-      "@type": "Property",
-      "name": "axisX",
-      "schema": "integer",
-      "displayName": "Set Marker Axis X",
-      "description": "Allows to set Marker Axis X."
-    },
-    {
-      "@type": "Property",
-      "name": "axisY",
-      "schema": "integer",
-      "displayName": "Set Marker Axis Y",
-      "description": "Allows to set Marker Axis Y."
+      "displayName": "RPC SleepTime",
+      "description": "Specifiy RPC sampling activated interval Time."
     },
     {
       "@type": "Property",
       "name": "timestamp",
       "schema": "long",
       "displayName": "telemetry delivery or receive time ",
-      "description": "show msg delivery or receive time"
+      "description": "msg delivery or receive time"
     }
 
   ]
