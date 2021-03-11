@@ -3,7 +3,7 @@
 # Purpose
 This project contains a sample for working with Azure Digital Twins:
 * A building scenario sample written in Python, C# and Node.js. Can be used to set up and simulate a full end-to-end scenario with Azure Digital Twins
-              * The desiged Flow and architecture is showed as following
+* The desiged Flow and architecture is showed as following
 ![](./Image/architeture.png)
 
 # Cloud service used
