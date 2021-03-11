@@ -64,7 +64,7 @@ The following instructions will get you a copy of the project and the setting ne
      * Azure.Identity v1.3.0
      * Microsoft.Net.Sdk.Funtions v3.0.7
      * System.Net.Http  v4.3.4
-* PnP Device
+* Plug and Play Device ( PnP Device )
   * Python 3.7
      * azure-core 1.9.0
      * azure-eventhub 5.2.0
