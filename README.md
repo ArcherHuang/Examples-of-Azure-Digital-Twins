@@ -25,7 +25,7 @@ The Digital Twins Definition Language (DTDL) is a language for describing models
   * The following model example shows a digital twin of a room that has a name property and a relationship to rpcs contained in the room.
   * [Room DTDL Model](./DTDL-Model/room-v3.json) 
 
-* Remot Particle Counter(RPC) State
+* Remote Particle Counter(RPC) State
   * The RPC State model describes a Remote Particle Counter's device capabilities such as it's status(property) as well as the commands it can accept which can be used for remote monitoring and control .
   * [RPC DTDL Model](./DTDL-Model/rpcStats-v9.json)
 
