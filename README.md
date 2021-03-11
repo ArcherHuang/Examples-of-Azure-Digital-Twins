@@ -48,20 +48,20 @@ The following instructions will get you a copy of the project and the setting ne
    * [Node.js v10.16.0](https://nodejs.org/en/download/)
    * [vue v2.6.12](https://vuejs.org/)
    * Azure Funciton
-     1. C# Visual Studio 2019
-     1. Azure.Core v1.6.0
-     2. Azure.DigitalTwins.Core v1.2.0
-     3. Azure.Identity v1.3.0
-     4. Microsoft.Net.Sdk.Funtions v3.07
-     5. System.Net.Http  v4.3.4
+     * C# Visual Studio 2019
+     * Azure.Core v1.6.0
+     * Azure.DigitalTwins.Core v1.2.0
+     * Azure.Identity v1.3.0
+     * Microsoft.Net.Sdk.Funtions v3.0.7
+     * System.Net.Http  v4.3.4
 * PnP Device
-     1. Python 3.7 
-     2. azure-core 1.9.0
-     3. azure-eventhub 5.2.0
-     4. azure-iot-device 2.4.0
-     5. azure-iot-hub 2.2.3
-     6. async-timeout 3.0.1
-     7. cryptography 3.3.1
+  * Python 3.7 
+  * azure-core 1.9.0
+  * azure-eventhub 5.2.0
+  * azure-iot-device 2.4.0
+  * azure-iot-hub 2.2.3
+  * async-timeout 3.0.1
+  * cryptography 3.3.1
 
 ### Clone
 * Clone this repository to your local machine
