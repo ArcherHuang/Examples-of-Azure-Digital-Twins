@@ -2,8 +2,8 @@
 
 # Purpose
 This project contains a sample for working with Azure Digital Twins:
-* A building scenario sample written in Python, C# and Node.js. Can be used to set up and simulate a full end-to-end scenario with Azure Digital Twins
-* The desiged Flow and architecture is showed as following
+* A building scenario sample written in Python, C# and Node.js. The sample can be used to set up and simulate a full end-to-end scenario with Azure Digital Twins
+* The desiged Flow and architecture is showed as following:
 ![](./Image/architeture.png)
 
 # Cloud service used
@@ -14,7 +14,7 @@ This project contains a sample for working with Azure Digital Twins:
 * [Azure Maps](https://docs.microsoft.com/zh-tw/azure/azure-maps/about-azure-maps)
 
 # Digital Twins Definition Language
-The Digital Twins Definition Language (DTDL) is a language for describing models and interfaces for IoT digital twins. Digital twins are models of entities in the physical environment such as shipping containers, rooms, factory floors, or logical entities that participate in IoT solutions. Using DTDL to describe a digital twin's capabilities enables the IoT platform and IoT solutions to leverage the semantics of the entity.
+The Digital Twins Definition Language (DTDL) is a language for describing models and interfaces for IoT digital twins such as shipping containers, rooms, factory floors, or logical entities that participate in IoT solutions as well as describes a digital twin's device capabilities. The DTDL in this sample project describes the Remote Particle Counter's properties,status and relationship in a specific room,floor, building and location. The hierarchical relationship inside a DTDL model is defined as following 3 sections:  
 
 ### Models
 * Floor
@@ -69,6 +69,7 @@ The Digital Twins Definition Language (DTDL) is a language for describing models
 ```
 
 * RPC State
+  * The following model describes a Remote Particle Counter's device capabilities such as it's status(property) as well as the commands it can accept which can be used for remote monitoring and control purpuses.
 ```
 {
   "@context": [
