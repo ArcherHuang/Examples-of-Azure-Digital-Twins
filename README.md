@@ -43,10 +43,25 @@ The sample repo contains:
 The following instructions will get you a copy of the project and the setting needed to run the back-end server on your local machine.
 
 ### Prerequisites
-
-- [npm](https://www.npmjs.com/get-npm)
-- [Node.js v10.16.0](https://nodejs.org/en/download/)
-- [vue v2.6.12](https://vuejs.org/)
+ * Front-End/Back-EndProxy 
+  - [npm](https://www.npmjs.com/get-npm)
+  - [Node.js v10.16.0](https://nodejs.org/en/download/)
+  - [vue v2.6.12](https://vuejs.org/)
+ * Azure Funciton
+  - [C# Visual Studio 2019]
+   - Azure.Core v1.6.0
+   - Azure.DigitalTwins.Core v1.2.0
+   - Azure.Identity v1.3.0
+   - Microsoft.Net.Sdk.Funtions v3.07
+   - System.Net.Http  v4.3.4
+ * PnP Device
+  - [Python 3.7] 
+   - azure-core 1.9.0
+   - azure-eventhub 5.2.0
+   - azure-iot-device 2.4.0
+   - azure-iot-hub 2.2.3
+   - async-timeout 3.0.1
+   - cryptography 3.3.1
 
 ### Clone
 * Clone this repository to your local machine
