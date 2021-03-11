@@ -1,5 +1,15 @@
-# Azure Digital Twins for Remote Particle Counter(RPC)
+# Azure Digital Twins for Remote Particle Counter ( RPC )
 
+# Contents
+- [Purpose](#purpose)
+- [Cloud service used](#cloud-service-used)
+- [Digital Twins Definition Language](#digital-twins-definition-language)
+- [Sample project contents](#sample-project-contents)
+- [How to use](#how-to-use)
+- [Dashboard](#dashboard)
+- [Contributing](#contributing)
+- [License](#license)
+- 
 # Purpose
 This project contains a sample for working with Azure Digital Twins:
 * A building scenario sample written in Python, C# and Node.js. The sample can be used to set up and simulate a full end-to-end scenario with Azure Digital Twins
@@ -37,16 +47,17 @@ The sample repo contains:
 | DTDL-Model | Models for RPC Azure Digital Twins are defined using the Digital Twins Definition language (DTDL). |
 | Front-End | This `Azure Digital Twins Viewer` serves as a front-end to the Azure Digital Twins spatial intelligence graph. It provides the following features:(1) Visualizing the relationship between floor, rooms and rpc devices created in the Azure Digital Twins model (2) Add and Delete rpc Devices (3) Viewing properties, telemetries and Commands of models (4) Viewing telemetry data of rpc Devices (5) Manage models (Upload and Delete) (6) Show rpc Devices location and status on the map (7) Set the threshold values from the dashboard for all rpcs |
 | Back-End/Proxy | Setup a system assigned identity to allow proxy to access Azure Digital Twins Service. |
-| PnP Device | Sample Source Code for Remote Particle Counter Device, which reports Status to and receives Command from/to Azure Digital Twins through Iot Hub. |
+| PnP Device | Sample Source Code for Remote Particle Counter Device, which reports Status to and receives Command from/to Azure Digital Twins through Azure IoT Hub. |
 
 # How to use
 The following instructions will get you a copy of the project and the setting needed to run the back-end server on your local machine.
 
 ### Prerequisites
- * Front-End/Back-EndProxy 
-   * [npm](https://www.npmjs.com/get-npm)
-   * [Node.js v10.16.0](https://nodejs.org/en/download/)
-   * [vue v2.6.12](https://vuejs.org/)
+ * Front-End & Back-End
+   * Dashboard & Proxy 
+     * [npm](https://www.npmjs.com/get-npm)
+     * [Node.js v10.16.0](https://nodejs.org/en/download/)
+     * [vue v2.6.12](https://vuejs.org/)
    * Azure Funciton - Visual Studio 2019 C#
      * Azure.Core v1.6.0
      * Azure.DigitalTwins.Core v1.2.0
@@ -71,7 +82,7 @@ The following instructions will get you a copy of the project and the setting ne
 * Proxy
   * **1. Enter the project folder**
     ```
-    $ cd ./Back-End/Proxy
+    $ cd ./Azure-Digital-Twins-for-RPC/Back-End/Proxy
     ```
   * **2. Install packages via npm**
     ```
@@ -98,7 +109,7 @@ The following instructions will get you a copy of the project and the setting ne
 * Dashboard
   * **1. Enter the project folder**
     ```
-    $ cd ./Front-End/View
+    $ cd ./Azure-Digital-Twins-for-RPC/Front-End
     ```
   * **2. Install packages via npm**
     ```
@@ -154,5 +165,7 @@ The following instructions will get you a copy of the project and the setting ne
 ![](./Image/Tree-Graph.png)
 
 # Contributing
-* [Lin, Hung-Wei]()
+* [Lin, Hung-Wei](https://github.com/levanlin)
 * [Huang, Cheng-Chuan](https://github.com/ArcherHuang)
+
+# License
