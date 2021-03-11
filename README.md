@@ -19,7 +19,7 @@ The Digital Twins Definition Language (DTDL) is a language for describing models
 ### Models
 * Floor
   * The following model example shows a digital twin of a floor that has a name property and a relationship to rooms contained in the building.
-  ![Floor](./DTDL-Model/floor-v3.json) 
+  *[Floor](./DTDL-Model/floor-v3.json) 
 ```
 {
   "@id": "dtmi:itri:cms:Floor;3",
