@@ -105,8 +105,9 @@ The following instructions will get you a copy of the project and the setting ne
     [HPM] Proxy created: /  -> https://levanlin-adt.api.eus.digitaltwins.azure.net
     Example app listening on port 3000!
     ```
-* Azure Function
- * **1. xx 
+* EventHub & Azure Functions
+ * **1. [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
+ * **2. [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
 
 * Dashboard
   * **1. Enter the project folder**
