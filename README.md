@@ -105,22 +105,33 @@ The following instructions will get you a copy of the project and the setting ne
     [HPM] Proxy created: /  -> https://levanlin-adt.api.eus.digitaltwins.azure.net
     Example app listening on port 3000!
     ```
-* RPC Device Client
-   * [Azure-IoT-Device SDK](https://github.com/Azure/azure-iot-sdk-python)
-   * [PnP Device] 
+* RPC Device Client 
+  * PnP Device
+    * **1. Enter the project folder**
       ```
-      Setup :
-      device ID -> rpc_component_name_01 = 'here-your-rpc-id01'
-      iothub connect string -> IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"     
-      under your sample directory:
-      RUN:
-      python3 rpc_pnp.py
-      ``` 
+      $ cd ./Azure-Digital-Twins-for-RPC/PnP-Device/rpc
+      ```
+    * **2. Change values in rpc_pnp.py**
+      * Device ID
+        ```
+        rpc_component_name_01 = 'here-your-rpc-id01'
+        ```
+      * IoT Hub connection string
+        ```
+        IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"
+        ```
+    * **5. Run Python**
+      ```
+      $ python3 rpc_pnp.py
+      ```
+  * Ref
+     * [Azure-IoT-Device SDK](https://github.com/Azure/azure-iot-sdk-python)
 * Setup EventHub & Azure Functions
   * [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
   * [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
   * [IoT Hub direct method](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods#:~:text=IoT%20Hub%20gives%20you%20the,a%20user%2Dspecified%20timeout)
   * [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
+  * [New application setting](https://docs.microsoft.com/zh-tw/azure/azure-functions/functions-how-to-use-azure-function-app-settings?tabs=portal)
   
 * Dashboard
   * **1. Enter the project folder**
