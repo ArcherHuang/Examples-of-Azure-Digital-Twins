@@ -48,7 +48,7 @@ The sample repo contains:
 | Front-End | This `Azure Digital Twins Viewer` serves as a front-end to the Azure Digital Twins spatial intelligence graph. It provides the following features:(1) Visualizing the relationship between floor, rooms and rpc devices created in the Azure Digital Twins model (2) Add and Delete rpc Devices (3) Viewing properties, telemetries and Commands of models (4) Viewing telemetry data of rpc Devices (5) Manage models (Upload and Delete) (6) Show rpc Devices location and status on the map (7) Set the threshold values from the dashboard for all rpcs |
 | Back-End/Proxy | Setup a system assigned identity to allow proxy to access Azure Digital Twins Service. |
 | Back-End/Azure-Functions | The Azure Functions receives the data from Azure IoT Hub and uses the DigitalTwins APIs to set properties and telemetry events on digital twins accordingly. |
-| PnP Device | Sample Source Code for Remote Particle Counter Device, which reports Status and receives Command to/from Azure Digital Twins through Azure IoT Hub. |
+| PnP-Device/rpc | Sample Source Code for Remote Particle Counter Device, which reports Status and receives Command to/from Azure Digital Twins through Azure IoT Hub. |
 | Indoor-Map-Files | Azure Indoor Maps will need to be uploaded as DWG files, which is AutoCAD's standard format. |
 
 # How to use
