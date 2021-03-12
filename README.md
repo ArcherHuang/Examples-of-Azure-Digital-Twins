@@ -109,10 +109,13 @@ The following instructions will get you a copy of the project and the setting ne
  *  **1. [Azure-iot-device sdk] (https://github.com/Azure/azure-iot-sdk-python)
  *  **2. [Pnp device] 
    ```
+    Setup :
     device ID -> rpc_component_name_01 = 'here-your-rpc-id01'
     iothub connect string -> IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"     
-   ```   
-       *   python3 pnp.py
+    RUN:
+    under your sample directory:
+    python3 rpc_pnp.py
+   ``` 
 * Setup EventHub & Azure Functions
  * **1. [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
  * **2. [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
