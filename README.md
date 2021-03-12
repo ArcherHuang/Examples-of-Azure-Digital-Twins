@@ -105,9 +105,10 @@ The following instructions will get you a copy of the project and the setting ne
     [HPM] Proxy created: /  -> https://levanlin-adt.api.eus.digitaltwins.azure.net
     Example app listening on port 3000!
     ```
-* EventHub & Azure Functions
+* Setup EventHub & Azure Functions
  * **1. [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
  * **2. [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
+ * **3. [IoTHub direct method](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods#:~:text=IoT%20Hub%20gives%20you%20the,a%20user%2Dspecified%20timeout)
 
 * Dashboard
   * **1. Enter the project folder**
