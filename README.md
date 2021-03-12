@@ -184,13 +184,13 @@ The following instructions will get you a copy of the project and the setting ne
 * View DTDL
 ![](./Image/View-DTDL.png)
 
-* Outdoor-Map
+* Outdoor Map
 ![](./Image/Outdoor-Map.png)
 
-* Indoor-Map
+* Indoor Map
 ![](./Image/Indoor-Map.png)
 
-* Tree-Graph
+* Tree Graph
 ![](./Image/Tree-Graph.png)
 
 # Contributing
