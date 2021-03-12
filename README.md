@@ -105,10 +105,19 @@ The following instructions will get you a copy of the project and the setting ne
     [HPM] Proxy created: /  -> https://levanlin-adt.api.eus.digitaltwins.azure.net
     Example app listening on port 3000!
     ```
+* RPC Device Client
+ *  **1. [Azure-iot-device sdk] (https://github.com/Azure/azure-iot-sdk-python)
+ *  **2. [Pnp device] 
+   ```
+    device ID -> rpc_component_name_01 = 'here-your-rpc-id01'
+    iothub connect string -> IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"     
+   ```   
+       *   python3 pnp.py
 * Setup EventHub & Azure Functions
  * **1. [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
  * **2. [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
- * **3. [IoTHub direct method](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods#:~:text=IoT%20Hub%20gives%20you%20the,a%20user%2Dspecified%20timeout)
+ * **3. [IoThub direct method](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods#:~:text=IoT%20Hub%20gives%20you%20the,a%20user%2Dspecified%20timeout)
+
 
 * Dashboard
   * **1. Enter the project folder**
