@@ -106,16 +106,16 @@ The following instructions will get you a copy of the project and the setting ne
     Example app listening on port 3000!
     ```
 * RPC Device Client
-   * [Azure-iot-device sdk] (https://github.com/Azure/azure-iot-sdk-python)
-   * [Pnp device] 
-   ```
-    Setup :
-    device ID -> rpc_component_name_01 = 'here-your-rpc-id01'
-    iothub connect string -> IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"     
-    under your sample directory:
-    RUN:
-    python3 rpc_pnp.py
-   ``` 
+   * [Azure-IoT-Device SDK](https://github.com/Azure/azure-iot-sdk-python)
+   * [PnP Device] 
+      ```
+      Setup :
+      device ID -> rpc_component_name_01 = 'here-your-rpc-id01'
+      iothub connect string -> IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"     
+      under your sample directory:
+      RUN:
+      python3 rpc_pnp.py
+      ``` 
 * Setup EventHub & Azure Functions
   * [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
   * [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
