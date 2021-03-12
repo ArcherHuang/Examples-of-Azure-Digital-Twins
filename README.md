@@ -128,7 +128,7 @@ The following instructions will get you a copy of the project and the setting ne
       ```
   * Ref
      * [Azure-IoT-Device SDK](https://github.com/Azure/azure-iot-sdk-python)
-* Setup EventHub & Azure Functions
+* Setup Azure Event Hubs & Azure Functions
   * [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
   * [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
   * [IoT Hub direct method](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods#:~:text=IoT%20Hub%20gives%20you%20the,a%20user%2Dspecified%20timeout)
