@@ -112,16 +112,15 @@ The following instructions will get you a copy of the project and the setting ne
     Setup :
     device ID -> rpc_component_name_01 = 'here-your-rpc-id01'
     iothub connect string -> IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"     
-    RUN:
     under your sample directory:
+    RUN:
     python3 rpc_pnp.py
    ``` 
 * Setup EventHub & Azure Functions
  * **1. [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
  * **2. [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
  * **3. [IoThub direct method](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods#:~:text=IoT%20Hub%20gives%20you%20the,a%20user%2Dspecified%20timeout)
-
-
+ * **4. [deploy Azure Fucntion](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 * Dashboard
   * **1. Enter the project folder**
     ```
