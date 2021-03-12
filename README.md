@@ -121,6 +121,7 @@ The following instructions will get you a copy of the project and the setting ne
   * **2. [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
   * **3. [IoThub direct method](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods#:~:text=IoT%20Hub%20gives%20you%20the,a%20user%2Dspecified%20timeout)
   * **4. [deploy Azure Fucntion](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
+  
 * Dashboard
   * **1. Enter the project folder**
     ```
