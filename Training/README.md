@@ -20,7 +20,7 @@
     * Azure Time Series Insights
     * Azure Maps
   * Device End 
-    * Remote Particles Counters
+    * Remote Particle Counters
     * Raspberry Pi 4
 * Hands on practices
   * Deivce to IoThub
