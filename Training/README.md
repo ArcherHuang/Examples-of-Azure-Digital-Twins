@@ -1,6 +1,6 @@
 # Azure Digital Twin Training​ Course Outline
 * Introduction
-  * Application Scenarios Past vs. Present(as manufactureing as Example)  
+  * Application Scenarios Past vs. Present (as manufactureing as Example)  
   * What is Azure Digital Twins (ADT)?
   * What else ADT Can Help on our Business?
   * Advantages of ADT
