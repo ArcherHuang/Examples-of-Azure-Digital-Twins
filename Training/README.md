@@ -7,9 +7,9 @@
   * Our use cases on ADT 
   * ADT's Service Architectures
   * ADT Concepts & Key Componets 
-    *  Digtal Twin Define Language(Open modeling language)
+    *  Digital Twins Definition Language (Open modeling language)
     *  PnP Plug & Play 
-    *  Digital Twins(virtual vs. Real Devices) 
+    *  Digital Twins (virtual vs. Real Devices) 
 * Use Case Buildup
   * Azure Cloud Services for ADT Use Case
   * Cloud End 
