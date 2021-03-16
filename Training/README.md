@@ -23,9 +23,9 @@
     * Remote Particle Counters
     * Raspberry Pi 4
 * Hands on practices
-  * Deivce to IoThub
-  * ADT in/out Through Azure Funtion
+  * Device to Azure IoT Hub
+  * ADT in/out Through Azure Function
   * DTDL
-  * Outdoor & Indoor Map
+  * Azure Outdoor & Indoor Map
   * Tree Graph
 * Q&A
