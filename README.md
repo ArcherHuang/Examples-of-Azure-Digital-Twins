@@ -98,7 +98,7 @@ The following instructions will get you a copy of the project and the setting ne
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 6. Run & Check server
    - Proxy Server
-     - Ref【 [Setup App](#setup-app) 】➙【 Proxy 】Section
+     - Ref【 [Proxy](#proxy) 】Section
    - Dashboard Server
      - Ref【 [Setup App](#setup-app) 】➙【 Dashboard 】Section
 7. Run & Go to your TSI Explorer
@@ -107,7 +107,7 @@ The following instructions will get you a copy of the project and the setting ne
      - Ref【 [Setup App](#setup-app) 】➙【 RPC Device Client 】➙【 PnP Device 】Section
 
 ### Setup App
-* Setup Azure Event Hubs & Azure Functions
+#### Setup Azure Event Hubs & Azure Functions
   * Source Code
     * [Azure Functions](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions)
   * Documentation
@@ -144,7 +144,7 @@ The following instructions will get you a copy of the project and the setting ne
     Example app listening on port 3000!
     ```
     
-* Dashboard
+#### Dashboard
   * **1. Enter the project folder**
     ```
     $ cd ./Azure-Digital-Twins-for-RPC/Front-End
@@ -186,7 +186,7 @@ The following instructions will get you a copy of the project and the setting ne
     ```
     You may start using the dashboard by accessing: http://localhost:8081/
 
-* RPC Device Client 
+#### RPC Device Client 
   * PnP Device
     * **1. Enter the project folder**
       ```
