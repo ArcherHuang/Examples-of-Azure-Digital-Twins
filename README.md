@@ -179,6 +179,7 @@ The following instructions will get you a copy of the project and the setting ne
     To create a production build, run npm run build.
     ```
     You may start using the dashboard by accessing: http://localhost:8081/
+### SOP for Initiating Services
 
 # Dashboard
 * DTDL List
