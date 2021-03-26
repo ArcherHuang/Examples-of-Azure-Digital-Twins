@@ -92,6 +92,7 @@ The following instructions will get you a copy of the project and the setting ne
    ![](./Image/ADT-Enpoint.png)
 2. Setup IoT Hub Message Routing to **`IngestADTFun`** Endpoint
    - Ref【 [Setup Azure Event Hubs & Azure Functions](#setup-azure-event-hubs--azure-functions) 】➙ 【 Source Code 】Section
+   ![](./Image/iothub.png)_
 3. Deploy & Start **`IngestADTFcn`** Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 4. Deploy & Start **`EmitADTFucn`** Azure Function
