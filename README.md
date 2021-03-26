@@ -120,15 +120,22 @@ The following instructions will get you a copy of the project and the setting ne
        - VUE_APP_MAP_STATESETID
          - Ref [Create a feature stateset](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps#create-a-feature-stateset)
          - ![](./Image/Create-a-feature-stateset.png)
-7. Run & Check server
+7. Add .env content
+   - VUE_APP_IOT_HUB_ENDPOINT
+     - ![](./Image/IoT-Hub-Overview.png)
+   - VUE_APP_IOT_HUB_DEVICEKEY & VUE_APP_IOT_HUB_POLICYNAME
+     - ![](./Image/IoT-Hub-Shared-Access-Policies.png)
+   - VUE_APP_EVENT_HUB_CONNECTIONSTRING
+   - VUE_APP_EVENT_HUB_NAME
+8. Run & Check server
    - Proxy Server
      - Ref【 [Proxy](#proxy) 】Section
    - Dashboard Server
      - Ref【 [Dashboard](#dashboard) 】Section
-8. Run & Go to your TSI Explorer
+9. Run & Go to your TSI Explorer
    - Ref [Time Series Insight](https://docs.microsoft.com/en-us/azure/time-series-insights/)
    -![](./Image/TSI.png)
-9. Start Device by running rpc_pnp.py
+10. Start Device by running rpc_pnp.py
    - PnP Device
      - Ref【 [RPC Device Client](#rpc-device-client) 】➙【 PnP Device 】Section
 
