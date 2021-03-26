@@ -82,7 +82,7 @@ The following instructions will get you a copy of the project and the setting ne
   ```
   
 ### SOP for Initiating Services
- * 1. Start Azure Digital Twins Service by setting Endpoints
+ 1. Start Azure Digital Twins Service by setting Endpoints
  * 2. Setup IotHub Message Routing to "IngestADTFun" Endpoint
  * 3. Deploy & Start "IngestADTFcn" AZure Function
  * 4. Deploy & Start "EmitADTFucn"  Azure Function
