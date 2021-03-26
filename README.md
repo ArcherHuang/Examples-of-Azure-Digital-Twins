@@ -60,8 +60,9 @@ The sample repo contains:
 ### Prerequisites
  * Front-End & Back-End
    * Dashboard & Proxy
-     * IDE
+     * IDE & Tool
         * [Visual Studio Code](https://code.visualstudio.com/)
+        * [Postman](https://www.postman.com/)
      * Package and Language Version
         * [npm](https://www.npmjs.com/get-npm)
         * [Node.js v10.16.0](https://nodejs.org/en/download/)
