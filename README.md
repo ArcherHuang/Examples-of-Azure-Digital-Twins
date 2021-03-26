@@ -97,7 +97,7 @@ The sample repo contains:
    ![](./Image/ADT-Enpoint.png)
 2. Setup IoT Hub Message Routing to **`IngestADTFunctions`** Endpoint
    - Ref【 [Setup Azure Event Hubs & Azure Functions](#setup-azure-event-hubs--azure-functions) 】➙【 Source Code 】Section
-   ![](./Image/iothub.png)_
+   ![](./Image/iothub.png)
 3. Deploy & Start **`IngestADTFunctions`** Azure Function
    - Environment Variable
      - ADT_SERVICE_URL
