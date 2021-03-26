@@ -100,15 +100,35 @@ The following instructions will get you a copy of the project and the setting ne
    - Ref [Deploy Azure Fucntions as step 3](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 5. Deploy & Start **`toMap`** Azure Function
    - Ref [Deploy Azure Fucntions as step 3](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
-6. Run & Check server
+6. Azure Maps service setup and indoor map import
+   - Azure Maps
+     - Create Azure Maps Account
+       - [](./Image/Create-Azure-Maps-Account.png)
+     - Add .env content ( Latitude and Longitude of company )
+       - VUE_APP_LONGITUDE
+       - VUE_APP_LATITUDE
+   - Azure Indoor Maps
+     - Add DWG and manifest.json to Azure Indoor Maps
+       - Ref [Use Creator to create indoor maps](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps)
+     - Add .env content
+       - VUE_APP_MAP_SUBSCRIPTION_KEY
+         - ![](./Image/Azure-Maps-Shared-Key-Authentication.png)
+       - VUE_APP_MAP_TILESETID
+         - Ref [Create a tileset
+  ](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps#create-a-tileset)
+         - ![](./Image/Create-a-tileset.png)
+       - VUE_APP_MAP_STATESETID
+         - Ref [Create a feature stateset](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps#create-a-feature-stateset)
+         - ![](./Image/Create-a-feature-stateset.png)
+7. Run & Check server
    - Proxy Server
      - Ref【 [Proxy](#proxy) 】Section
    - Dashboard Server
      - Ref【 [Dashboard](#dashboard) 】Section
-7. Run & Go to your TSI Explorer
+8. Run & Go to your TSI Explorer
    - Ref [Time Series Insight](https://docs.microsoft.com/en-us/azure/time-series-insights/)
    -![](./Image/TSI.png)
-8. Start Device by running rpc_pnp.py
+9. Start Device by running rpc_pnp.py
    - PnP Device
      - Ref【 [RPC Device Client](#rpc-device-client) 】➙【 PnP Device 】Section
 
