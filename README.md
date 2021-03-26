@@ -96,9 +96,9 @@ The following instructions will get you a copy of the project and the setting ne
 3. Deploy & Start **`IngestADTFunctions`** Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
    ![](./Image/azfun.png)
-4. Deploy & Start **`EmitADTFucn`** Azure Function
+4. Deploy & Start **`EmitAdtTsi`** Azure Function
    - Ref [Deploy Azure Fucntions] as step 3(https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
-5. Deploy & Start **`ToMapFucn`** Azure Function
+5. Deploy & Start **`toMap`** Azure Function
    - Ref [Deploy Azure Fucntions] as step 3(https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 6. Run & Check server
    - Proxy Server
@@ -117,7 +117,6 @@ The following instructions will get you a copy of the project and the setting ne
   * Azure Functions Source Code
     * [EmitAdtTsi](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions/EmitAdtTsi)
     * [IngestADTFunctions](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions/IngestADTFunctions)
-    * [TelemetryAzureFunction](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions/TelemetryAzureFunction)
     * [toMap](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions/toMap)
   * Documentation
     * [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
