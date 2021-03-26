@@ -117,7 +117,7 @@ The following instructions will get you a copy of the project and the setting ne
     * [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
     * [New application setting](https://docs.microsoft.com/zh-tw/azure/azure-functions/functions-how-to-use-azure-function-app-settings?tabs=portal)
     
-* Proxy
+#### Proxy
   * **1. Enter the project folder**
     ```
     $ cd ./Azure-Digital-Twins-for-RPC/Back-End/Proxy
