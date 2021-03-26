@@ -100,6 +100,7 @@ The following instructions will get you a copy of the project and the setting ne
 9. Start Device by running rpc_pnp.py
    - PnP Device
      - Ref【 [How to use](#how-to-use) 】➙【 Setup App 】➙【 RPC Device Client 】➙【 PnP Device 】Section
+- [How to use](#how-to-use#setup-app)
 
 ### Setup App
 * Setup Azure Event Hubs & Azure Functions
