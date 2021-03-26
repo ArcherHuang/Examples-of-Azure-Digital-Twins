@@ -88,6 +88,7 @@ The following instructions will get you a copy of the project and the setting ne
   
 ### SOP for Initiating Services
 1. Start Azure Digital Twins Service by setting Endpoint
+   - Ref [Manage ADT endpoints](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-manage-routes-portal)
 2. Setup IoT Hub Message Routing to **`IngestADTFun`** Endpoint
    - Ref【 [Setup Azure Event Hubs & Azure Functions](#setup-azure-event-hubs--azure-functions) 】➙ 【 Source Code 】Section
 3. Deploy & Start **`IngestADTFcn`** Azure Function
@@ -102,6 +103,7 @@ The following instructions will get you a copy of the project and the setting ne
    - Dashboard Server
      - Ref【 [Dashboard](#dashboard) 】Section
 7. Run & Go to your TSI Explorer
+   - Ref [Time Series Insight](https://docs.microsoft.com/en-us/azure/time-series-insights/)
 8. Start Device by running rpc_pnp.py
    - PnP Device
      - Ref【 [RPC Device Client](#rpc-device-client) 】➙【 PnP Device 】Section
