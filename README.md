@@ -103,7 +103,7 @@ The following instructions will get you a copy of the project and the setting ne
 6. Azure Maps service setup and indoor map import
    - Azure Maps
      - Create Azure Maps Account
-       - ![](./Image/Create-Azure-Maps-Account.png)
+       ![](./Image/Create-Azure-Maps-Account.png)
      - Add .env content ( Latitude and Longitude of company )
        - VUE_APP_LONGITUDE
        - VUE_APP_LATITUDE
@@ -112,19 +112,19 @@ The following instructions will get you a copy of the project and the setting ne
        - Ref [Use Creator to create indoor maps](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps)
      - Add .env content
        - VUE_APP_MAP_SUBSCRIPTION_KEY
-         - ![](./Image/Azure-Maps-Shared-Key-Authentication.png)
+         ![](./Image/Azure-Maps-Shared-Key-Authentication.png)
        - VUE_APP_MAP_TILESETID
          - Ref [Create a tileset
   ](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps#create-a-tileset)
-         - ![](./Image/Create-a-tileset.png)
+           ![](./Image/Create-a-tileset.png)
        - VUE_APP_MAP_STATESETID
          - Ref [Create a feature stateset](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps#create-a-feature-stateset)
-         - ![](./Image/Create-a-feature-stateset.png)
+           ![](./Image/Create-a-feature-stateset.png)
 7. Add .env content
    - VUE_APP_IOT_HUB_ENDPOINT
-     - ![](./Image/IoT-Hub-Overview.png)
+     ![](./Image/IoT-Hub-Overview.png)
    - VUE_APP_IOT_HUB_DEVICEKEY & VUE_APP_IOT_HUB_POLICYNAME
-     - ![](./Image/IoT-Hub-Shared-Access-Policies.png)
+     ![](./Image/IoT-Hub-Shared-Access-Policies.png)
    - VUE_APP_EVENT_HUB_CONNECTIONSTRING
    - VUE_APP_EVENT_HUB_NAME
 8. Run & Check server
