@@ -97,7 +97,7 @@ The following instructions will get you a copy of the project and the setting ne
    - Ref [Manage ADT endpoints](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-manage-routes-portal)
    ![](./Image/ADT-Enpoint.png)
 2. Setup IoT Hub Message Routing to **`IngestADTFunctions`** Endpoint
-   - Ref【 [Setup Azure Event Hubs & Azure Functions](#setup-azure-event-hubs--azure-functions) 】➙ 【 Source Code 】Section
+   - Ref【 [Setup Azure Event Hubs & Azure Functions](#setup-azure-event-hubs--azure-functions) 】➙【 Source Code 】Section
    ![](./Image/iothub.png)_
 3. Deploy & Start **`IngestADTFunctions`** Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
@@ -110,13 +110,13 @@ The following instructions will get you a copy of the project and the setting ne
    - Azure Maps
      - Create Azure Maps Account
        ![](./Image/Create-Azure-Maps-Account.png)
-     - Add .env content ( Latitude and Longitude of company )
+     - Add ./Azure-Digital-Twins-for-RPC/Front-End/.env content ( Latitude and Longitude of company )
        - VUE_APP_LONGITUDE
        - VUE_APP_LATITUDE
    - Azure Indoor Maps
      - Add DWG and manifest.json to Azure Indoor Maps
        - Ref [Use Creator to create indoor maps](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps)
-     - Add .env content
+     - Add ./Azure-Digital-Twins-for-RPC/Front-End/.env content
        - VUE_APP_MAP_SUBSCRIPTION_KEY
          ![](./Image/Azure-Maps-Shared-Key-Authentication.png)
        - VUE_APP_MAP_TILESETID
@@ -126,7 +126,7 @@ The following instructions will get you a copy of the project and the setting ne
        - VUE_APP_MAP_STATESETID
          - Ref [Create a feature stateset](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps#create-a-feature-stateset)
            ![](./Image/Create-a-feature-stateset.png)
-7. Add .env content
+7. Add ./Azure-Digital-Twins-for-RPC/Front-End/.env content
    - VUE_APP_IOT_HUB_ENDPOINT
      ![](./Image/IoT-Hub-Overview.png)
    - VUE_APP_IOT_HUB_DEVICEKEY & VUE_APP_IOT_HUB_POLICYNAME
@@ -135,15 +135,18 @@ The following instructions will get you a copy of the project and the setting ne
      ![](./Image/Event-Hub-Overview.png)
    - VUE_APP_EVENT_HUB_CONNECTIONSTRING
      ![](./Image/Event-Hub-Shared-Access-Policies.png)
-8. Run & Check server
+8. Add ./Azure-Digital-Twins-for-RPC/Back-End/Proxy/.env content
+   - AZURE_DIGITAL_TWINS_HOST_NAME=https://
+     ![](./Image/Azure-Digital-Twins-Host-Name.png)
+9. Run & Check server
    - Proxy Server
      - Ref【 [Proxy](#proxy) 】Section
    - Dashboard Server
      - Ref【 [Dashboard](#dashboard) 】Section
-9. Run & Go to your TSI Explorer
+10. Run & Go to your TSI Explorer
    - Ref [Time Series Insight](https://docs.microsoft.com/en-us/azure/time-series-insights/)
    -![](./Image/TSI.png)
-10. Start Device by running rpc_pnp.py
+11. Start Device by running rpc_pnp.py
    - PnP Device
      - Ref【 [RPC Device Client](#rpc-device-client) 】➙【 PnP Device 】Section
 
