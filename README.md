@@ -245,6 +245,10 @@ The sample repo contains:
         ```
         IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"
         ```
+        * Get Primary Connection String
+          ![](./Image/iothub2.png)
+          ![](./Image/iothub1.png)
+
     * **3. Run Python**
       ```
       $ python3 rpc_pnp.py
