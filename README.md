@@ -8,7 +8,7 @@
 - [Sample project contents](#sample-project-contents)
 - [How to use](#how-to-use)
   - [Prerequisites](#prerequisites)
-  - [Clone](#clone)
+  - [Project Repository](#clone)
   - [SOP for Initiating Services](#sop-for-initiating-services)
   - [Setup App](#setup-app)
 - [Dashboard](#dashboard)
