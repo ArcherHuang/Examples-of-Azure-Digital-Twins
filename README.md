@@ -180,14 +180,14 @@ The following instructions will get you a copy of the project and the setting ne
     ```
     You may start using the dashboard by accessing: http://localhost:8081/
 ### SOP for Initiating Services
- * 1. Start Azure Digital Twins Service
- * 2. Setup IotHub Message Routing to Endpoint
- * 3. Deploy & Start IngestADTFcn AZure Function
- * 4. Deploy & Start EmitADTFucn  Azure Function
- * 5. Deploy &　Start ToMapFucn Azure Function
+ * 1. Start Azure Digital Twins Service by setting Endpoints
+ * 2. Setup IotHub Message Routing to "IngestADTFun" Endpoint
+ * 3. Deploy & Start "IngestADTFcn" AZure Function
+ * 4. Deploy & Start "EmitADTFucn"  Azure Function
+ * 5. Deploy &　Start "ToMapFucn" Azure Function
  * 6. Run & check Map Server at http://localhost:8081/ 
  * 7. Run & Go to your TSI Explorer
- * 8. Start your Device by running rpc_pnp.py
+ * 8. Start Device by running rpc_pnp.py
 
 # Dashboard
 * DTDL List
