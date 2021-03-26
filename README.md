@@ -83,13 +83,13 @@ The following instructions will get you a copy of the project and the setting ne
   
 ### SOP for Initiating Services
 1. Start Azure Digital Twins Service by setting Endpoint
-2. Setup IoT Hub Message Routing to "IngestADTFun" Endpoint
+2. Setup IoT Hub Message Routing to `IngestADTFun` Endpoint
    - Ref【 How to use 】➙【 [Setup App](#setup-app) 】➙【 Setup Azure Event Hubs & Azure Functions 】➙ 【 Source Code 】Section
-4. Deploy & Start "IngestADTFcn" Azure Function
+4. Deploy & Start `IngestADTFcn` Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
-5. Deploy & Start "EmitADTFucn"  Azure Function
+5. Deploy & Start `EmitADTFucn` Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
-6. Deploy & Start "ToMapFucn" Azure Function
+6. Deploy & Start `ToMapFucn` Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 7. Run & check Server
    - Proxy Server
