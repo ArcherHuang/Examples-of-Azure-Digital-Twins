@@ -103,7 +103,7 @@ The following instructions will get you a copy of the project and the setting ne
 6. Azure Maps service setup and indoor map import
    - Azure Maps
      - Create Azure Maps Account
-       - [](./Image/Create-Azure-Maps-Account.png)
+       - ![](./Image/Create-Azure-Maps-Account.png)
      - Add .env content ( Latitude and Longitude of company )
        - VUE_APP_LONGITUDE
        - VUE_APP_LATITUDE
