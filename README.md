@@ -61,16 +61,22 @@ The following instructions will get you a copy of the project and the setting ne
 
 ### Prerequisites
  * Front-End & Back-End
-   * Dashboard & Proxy 
-     * [npm](https://www.npmjs.com/get-npm)
-     * [Node.js v10.16.0](https://nodejs.org/en/download/)
-     * [vue v2.6.12](https://vuejs.org/)
-   * Azure Funciton - Visual Studio 2019 C#
-     * Azure.Core v1.6.0
-     * Azure.DigitalTwins.Core v1.2.0
-     * Azure.Identity v1.3.0
-     * Microsoft.Net.Sdk.Funtions v3.0.7
-     * System.Net.Http  v4.3.4
+   * Dashboard & Proxy
+     * IDE
+        * [Visual Studio Code](https://code.visualstudio.com/)
+     * Package and Language Version
+        * [npm](https://www.npmjs.com/get-npm)
+        * [Node.js v10.16.0](https://nodejs.org/en/download/)
+        * [vue v2.6.12](https://vuejs.org/)
+   * Azure Funciton
+     * IDE
+        * Visual Studio 2019 C#
+     * Library
+        * Azure.Core v1.6.0
+        * Azure.DigitalTwins.Core v1.2.0
+        * Azure.Identity v1.3.0
+        * Microsoft.Net.Sdk.Funtions v3.0.7
+        * System.Net.Http  v4.3.4
 * Plug and Play Device ( PnP Device )
   * Python 3.7
      * azure-core 1.9.0
