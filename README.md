@@ -86,12 +86,22 @@ The following instructions will get you a copy of the project and the setting ne
 2. Setup IoT Hub Message Routing to "IngestADTFun" Endpoint
 3. Deploy & Start "IngestADTFcn" Azure Function
 4. Deploy & Start "EmitADTFucn"  Azure Function
-5. Deploy &　Start "ToMapFucn" Azure Function
+5. Deploy & Start "ToMapFucn" Azure Function
 6. Run & check Map Server at http://localhost:8081/ 
 7. Run & Go to your TSI Explorer
 8. Start Device by running rpc_pnp.py
 
 ### Setup App
+* Setup Azure Event Hubs & Azure Functions
+  * Source Code
+    * [Azure Functions](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions)
+  * Documentation
+    * [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
+    * [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
+    * [IoT Hub direct method](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods#:~:text=IoT%20Hub%20gives%20you%20the,a%20user%2Dspecified%20timeout)
+    * [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
+    * [New application setting](https://docs.microsoft.com/zh-tw/azure/azure-functions/functions-how-to-use-azure-function-app-settings?tabs=portal)
+    
 * Proxy
   * **1. Enter the project folder**
     ```
@@ -118,37 +128,7 @@ The following instructions will get you a copy of the project and the setting ne
     [HPM] Proxy created: /  -> https://levanlin-adt.api.eus.digitaltwins.azure.net
     Example app listening on port 3000!
     ```
-* RPC Device Client 
-  * PnP Device
-    * **1. Enter the project folder**
-      ```
-      $ cd ./Azure-Digital-Twins-for-RPC/PnP-Device/rpc
-      ```
-    * **2. Change values in rpc_pnp.py**
-      * Device ID
-        ```
-        rpc_component_name_01 = 'here-your-rpc-id01'
-        ```
-      * IoT Hub connection string
-        ```
-        IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"
-        ```
-    * **3. Run Python**
-      ```
-      $ python3 rpc_pnp.py
-      ```
-  * Ref
-     * [Azure-IoT-Device SDK](https://github.com/Azure/azure-iot-sdk-python)
-* Setup Azure Event Hubs & Azure Functions
-  * Source Code
-    * [Azure Functions](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions)
-  * Documentation
-    * [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
-    * [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
-    * [IoT Hub direct method](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-direct-methods#:~:text=IoT%20Hub%20gives%20you%20the,a%20user%2Dspecified%20timeout)
-    * [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
-    * [New application setting](https://docs.microsoft.com/zh-tw/azure/azure-functions/functions-how-to-use-azure-function-app-settings?tabs=portal)
-  
+    
 * Dashboard
   * **1. Enter the project folder**
     ```
@@ -191,6 +171,28 @@ The following instructions will get you a copy of the project and the setting ne
     ```
     You may start using the dashboard by accessing: http://localhost:8081/
 
+* RPC Device Client 
+  * PnP Device
+    * **1. Enter the project folder**
+      ```
+      $ cd ./Azure-Digital-Twins-for-RPC/PnP-Device/rpc
+      ```
+    * **2. Change values in rpc_pnp.py**
+      * Device ID
+        ```
+        rpc_component_name_01 = 'here-your-rpc-id01'
+        ```
+      * IoT Hub connection string
+        ```
+        IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"
+        ```
+    * **3. Run Python**
+      ```
+      $ python3 rpc_pnp.py
+      ```
+  * Ref
+     * [Azure-IoT-Device SDK](https://github.com/Azure/azure-iot-sdk-python)
+     
 # Dashboard
 * DTDL List
 ![](./Image/DTDL.png)
