@@ -90,10 +90,10 @@ The following instructions will get you a copy of the project and the setting ne
 1. Start Azure Digital Twins Service by setting Endpoint
    - Ref [Manage ADT endpoints](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-manage-routes-portal)
    ![](./Image/ADT-Enpoint.png)
-2. Setup IoT Hub Message Routing to **`IngestADTFun`** Endpoint
+2. Setup IoT Hub Message Routing to **`IngestADTFunctions`** Endpoint
    - Ref【 [Setup Azure Event Hubs & Azure Functions](#setup-azure-event-hubs--azure-functions) 】➙ 【 Source Code 】Section
    ![](./Image/iothub.png)_
-3. Deploy & Start **`IngestADTFcn`** Azure Function
+3. Deploy & Start **`IngestADTFunctions`** Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
    ![](./Image/azfun.png)
 4. Deploy & Start **`EmitADTFucn`** Azure Function
