@@ -131,8 +131,10 @@ The following instructions will get you a copy of the project and the setting ne
      ![](./Image/IoT-Hub-Overview.png)
    - VUE_APP_IOT_HUB_DEVICEKEY & VUE_APP_IOT_HUB_POLICYNAME
      ![](./Image/IoT-Hub-Shared-Access-Policies.png)
-   - VUE_APP_EVENT_HUB_CONNECTIONSTRING
    - VUE_APP_EVENT_HUB_NAME
+     ![](./Image/Event-Hub-Overview.png)
+   - VUE_APP_EVENT_HUB_CONNECTIONSTRING
+     ![](./Image/Event-Hub-Shared-Access-Policies.png)
 8. Run & Check server
    - Proxy Server
      - Ref【 [Proxy](#proxy) 】Section
