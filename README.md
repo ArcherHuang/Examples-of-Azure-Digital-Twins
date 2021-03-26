@@ -97,9 +97,9 @@ The following instructions will get you a copy of the project and the setting ne
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
    ![](./Image/azfun.png)
 4. Deploy & Start **`EmitAdtTsi`** Azure Function
-   - Ref [Deploy Azure Fucntions] as step 3(https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
+   - Ref [Deploy Azure Fucntions as step 3](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 5. Deploy & Start **`toMap`** Azure Function
-   - Ref [Deploy Azure Fucntions] as step 3(https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
+   - Ref [Deploy Azure Fucntions as step 3](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 6. Run & Check server
    - Proxy Server
      - Ref【 [Proxy](#proxy) 】Section
