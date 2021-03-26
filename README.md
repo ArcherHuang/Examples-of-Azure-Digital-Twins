@@ -99,6 +99,9 @@ The sample repo contains:
    - Ref【 [Setup Azure Event Hubs & Azure Functions](#setup-azure-event-hubs--azure-functions) 】➙【 Source Code 】Section
    ![](./Image/iothub.png)_
 3. Deploy & Start **`IngestADTFunctions`** Azure Function
+   - Environment Variable
+     - ADT_SERVICE_URL
+       ![](./Image/Azure-Digital-Twins-Host-Name.png)
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
    ![](./Image/azfun.png)
 4. Deploy & Start **`EmitAdtTsi`** Azure Function
@@ -124,12 +127,12 @@ The sample repo contains:
          - Ref [Create a feature stateset](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps#create-a-feature-stateset)
            ![](./Image/Create-a-feature-stateset.png)
 6. Deploy & Start **`toMap`** Azure Function
-   - Ref [Deploy Azure Fucntions as step 3](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
    - Environment Variable
      - statesetID
        ![](./Image/Create-a-feature-stateset.png)
      - subscription-key
        ![](./Image/Azure-Maps-Shared-Key-Authentication.png)
+   - Ref [Deploy Azure Fucntions as step 3](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 7. Add ./Azure-Digital-Twins-for-RPC/Front-End/.env content
    - VUE_APP_IOT_HUB_ENDPOINT
      ![](./Image/IoT-Hub-Overview.png)
