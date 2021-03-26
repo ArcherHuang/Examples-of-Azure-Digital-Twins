@@ -87,10 +87,11 @@ The following instructions will get you a copy of the project and the setting ne
 3. Deploy & Start "IngestADTFcn" Azure Function
 4. Deploy & Start "EmitADTFucn"  Azure Function
 5. Deploy & Start "ToMapFucn" Azure Function
-6. Run & check dashboard Server
-   - Proxy
+   - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
+7. Run & check Server
+   - Proxy Server
      - Ref【 Setup App 】➙【 Proxy 】Section
-   - Dashboard
+   - Dashboard Server
      - Ref【 Setup App 】➙【 Dashboard 】Section
 8. Run & Go to your TSI Explorer
 9. Start Device by running rpc_pnp.py
