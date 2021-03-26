@@ -57,7 +57,7 @@ The sample repo contains:
 | Indoor-Map-Files | Azure Indoor Maps will need to be uploaded as DWG files, which is AutoCAD's standard format. |
 
 # How to use
-The following instructions will get you a copy of the project and the setting needed to run the back-end server on your local machine.
+The following instructions will get you a copy of the project and the setting needed to run the proxy & dashboard server on your local machine.
 
 ### Prerequisites
  * Front-End & Back-End
