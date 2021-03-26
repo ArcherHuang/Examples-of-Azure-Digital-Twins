@@ -125,6 +125,11 @@ The sample repo contains:
            ![](./Image/Create-a-feature-stateset.png)
 6. Deploy & Start **`toMap`** Azure Function
    - Ref [Deploy Azure Fucntions as step 3](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
+   - Environment Variable
+     - statesetID
+       ![](./Image/Create-a-feature-stateset.png)
+     - subscription-key
+       ![](./Image/Azure-Maps-Shared-Key-Authentication.png)
 7. Add ./Azure-Digital-Twins-for-RPC/Front-End/.env content
    - VUE_APP_IOT_HUB_ENDPOINT
      ![](./Image/IoT-Hub-Overview.png)
