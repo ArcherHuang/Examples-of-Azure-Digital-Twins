@@ -87,9 +87,15 @@ The following instructions will get you a copy of the project and the setting ne
 3. Deploy & Start "IngestADTFcn" Azure Function
 4. Deploy & Start "EmitADTFucn"  Azure Function
 5. Deploy & Start "ToMapFucn" Azure Function
-6. Run & check Map Server at http://localhost:8081/ 
-7. Run & Go to your TSI Explorer
-8. Start Device by running rpc_pnp.py
+6. Run & check dashboard Server
+   - Proxy
+     - Ref【 Setup App 】➙【 Proxy 】Section
+   - Dashboard
+     - Ref【 Setup App 】➙【 Dashboard 】Section
+8. Run & Go to your TSI Explorer
+9. Start Device by running rpc_pnp.py
+   - PnP Device
+     - Ref【 Setup App 】➙【 RPC Device Client 】➙【 PnP Device 】Section
 
 ### Setup App
 * Setup Azure Event Hubs & Azure Functions
