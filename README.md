@@ -180,7 +180,7 @@ The following instructions will get you a copy of the project and the setting ne
     ```
     You may start using the dashboard by accessing: http://localhost:8081/
 ### SOP for Initiating Services
- * **1. Start Azure Digital Twins Service
+ * 1. Start Azure Digital Twins Service
 
 # Dashboard
 * DTDL List
