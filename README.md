@@ -91,7 +91,7 @@ The following instructions will get you a copy of the project and the setting ne
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 6. Deploy & Start `ToMapFucn` Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
-7. Run & check Server
+7. Run & Check server
    - Proxy Server
      - Ref【 [Setup App](#setup-app) 】➙【 Proxy 】Section
    - Dashboard Server
