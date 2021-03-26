@@ -103,9 +103,7 @@ The sample repo contains:
    ![](./Image/azfun.png)
 4. Deploy & Start **`EmitAdtTsi`** Azure Function
    - Ref [Deploy Azure Fucntions as step 3](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
-5. Deploy & Start **`toMap`** Azure Function
-   - Ref [Deploy Azure Fucntions as step 3](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
-6. Azure Maps service setup and indoor map import
+5. Azure Maps service setup and indoor map import
    - Azure Maps
      - Create Azure Maps Account
        ![](./Image/Create-Azure-Maps-Account.png)
@@ -125,6 +123,8 @@ The sample repo contains:
        - VUE_APP_MAP_STATESETID
          - Ref [Create a feature stateset](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps#create-a-feature-stateset)
            ![](./Image/Create-a-feature-stateset.png)
+6. Deploy & Start **`toMap`** Azure Function
+   - Ref [Deploy Azure Fucntions as step 3](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 7. Add ./Azure-Digital-Twins-for-RPC/Front-End/.env content
    - VUE_APP_IOT_HUB_ENDPOINT
      ![](./Image/IoT-Hub-Overview.png)
