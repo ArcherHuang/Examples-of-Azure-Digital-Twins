@@ -108,8 +108,11 @@ The following instructions will get you a copy of the project and the setting ne
 
 ### Setup App
 #### Setup Azure Event Hubs & Azure Functions
-  * Source Code
-    * [Azure Functions](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions)
+  * Azure Functions Source Code
+    * [EmitAdtTsi](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions/EmitAdtTsi)
+    * [IngestADTFunctions](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions/IngestADTFunctions)
+    * [TelemetryAzureFunction](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions/TelemetryAzureFunction)
+    * [toMap](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC/tree/main/Back-End/Azure-Functions/toMap)
   * Documentation
     * [EventHub](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-integrate-time-series-insights)
     * [EventGrid](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-create-azure-function?tabs=cli)
