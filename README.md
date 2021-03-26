@@ -144,7 +144,7 @@ The sample repo contains:
      - Ref【 [Dashboard](#dashboard) 】Section
 10. Run & Go to your TSI Explorer
    - Ref [Time Series Insight](https://docs.microsoft.com/en-us/azure/time-series-insights/)
-   -![](./Image/TSI.png)
+     ![](./Image/TSI.png)
 11. Start Device by running rpc_pnp.py
    - PnP Device
      - Ref【 [RPC Device Client](#rpc-device-client) 】➙【 PnP Device 】Section
