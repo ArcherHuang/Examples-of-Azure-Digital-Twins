@@ -84,7 +84,7 @@ The following instructions will get you a copy of the project and the setting ne
 ### SOP for Initiating Services
 1. Start Azure Digital Twins Service by setting Endpoint
 2. Setup IoT Hub Message Routing to "IngestADTFun" Endpoint
-   - Ref【 [How to use](#how-to-use)】➙【 Setup App 】➙【 Setup Azure Event Hubs & Azure Functions 】➙ 【 Source Code 】Section
+   - Ref【 [How to use](#how-to-use) 】➙【 Setup App 】➙【 Setup Azure Event Hubs & Azure Functions 】➙ 【 Source Code 】Section
 4. Deploy & Start "IngestADTFcn" Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 5. Deploy & Start "EmitADTFucn"  Azure Function
@@ -93,13 +93,13 @@ The following instructions will get you a copy of the project and the setting ne
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 7. Run & check Server
    - Proxy Server
-     - Ref【 [How to use](#how-to-use)】➙【 Setup App 】➙【 Proxy 】Section
+     - Ref【 [How to use](#how-to-use) 】➙【 Setup App 】➙【 Proxy 】Section
    - Dashboard Server
-     - Ref【 [How to use](#how-to-use)】➙【 Setup App 】➙【 Dashboard 】Section
+     - Ref【 [How to use](#how-to-use) 】➙【 Setup App 】➙【 Dashboard 】Section
 8. Run & Go to your TSI Explorer
 9. Start Device by running rpc_pnp.py
    - PnP Device
-     - Ref【 [How to use](#how-to-use)】➙【 Setup App 】➙【 RPC Device Client 】➙【 PnP Device 】Section
+     - Ref【 [How to use](#how-to-use) 】➙【 Setup App 】➙【 RPC Device Client 】➙【 PnP Device 】Section
 
 ### Setup App
 * Setup Azure Event Hubs & Azure Functions
