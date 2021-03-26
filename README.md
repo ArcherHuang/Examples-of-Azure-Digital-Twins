@@ -4,6 +4,7 @@
 - [Purpose](#purpose)
 - [Cloud service used](#cloud-service-used)
 - [Digital Twins Definition Language](#digital-twins-definition-language)
+  - [Models](#models)
 - [Sample project contents](#sample-project-contents)
 - [How to use](#how-to-use)
 - [Dashboard](#dashboard)
