@@ -95,6 +95,7 @@ The following instructions will get you a copy of the project and the setting ne
    ![](./Image/iothub.png)_
 3. Deploy & Start **`IngestADTFcn`** Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
+   ![](./Image/azfun.png)
 4. Deploy & Start **`EmitADTFucn`** Azure Function
    - Ref [Deploy Azure Fucntions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)
 5. Deploy & Start **`ToMapFucn`** Azure Function
