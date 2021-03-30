@@ -95,6 +95,7 @@ The sample repo contains:
 1. Start Azure Digital Twins Service by setting Endpoint
    - Ref [Manage ADT endpoints](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-manage-routes-portal)
    ![](./Image/ADT-Enpoint.png)
+   ![](./Image/adt-2.png)
 2. Setup IoT Hub Message Routing to **`IngestADTFunctions`** Endpoint
    - Ref【 [Setup Azure Event Hubs & Azure Functions](#setup-azure-event-hubs--azure-functions) 】➙【 Source Code 】Section
    ![](./Image/iothub.png)
