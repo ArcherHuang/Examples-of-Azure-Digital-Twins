@@ -81,10 +81,10 @@ THERMOSTAT_1 = None
 THERMOSTAT_2 = None
 
 IOTHUB_DEVICE_SECURITY_TYPE="connectionString"
-IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key02"
-IOTHUB_DEVICE_CONNECTION_STRING_DEV2="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key02"
-IOTHUB_DEVICE_CONNECTION_STRING_DEV3="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key03"
-IOTHUB_DEVICE_CONNECTION_STRING_DEV4="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key04"
+IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key"
+IOTHUB_DEVICE_CONNECTION_STRING_DEV2="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key"
+IOTHUB_DEVICE_CONNECTION_STRING_DEV3="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key"
+IOTHUB_DEVICE_CONNECTION_STRING_DEV4="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key"
 
 
 SLEEPTIME = 5
