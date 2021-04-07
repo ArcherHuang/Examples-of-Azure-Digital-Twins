@@ -29,17 +29,17 @@ thermostat_digital_twin_model_identifier = "dtmi:itri:cms:RPCstat;1"
 # The device "TemperatureController" that is getting implemented using the above interfaces.
 # This id can change according to the company the user is from
 # and the name user wants to call this Plug and Play device
-model_id = "dtmi:itri:cms:RPCstat;8"
+model_id = "dtmi:itri:cms:RPCstat;9"
 
 # the components inside this Plug and Play device.
 # there can be multiple components from 1 interface
 # component names according to interfaces following pascal case.
 # device_information_component_name = "deviceInformation"
 
-rpc_component_name_01 = 'here-your-rpc-id01'
-rpc_component_name_02 = 'here-your-rpc-id02'
-rpc_component_name_03 = 'here-your-rpc-id03'
-rpc_component_name_04 = 'here-your-rpc-id04'
+rpc_component_name_01 = 'rpc-adt-001'
+rpc_component_name_02 = 'rpc-adt-002'
+rpc_component_name_03 = 'rpc-adt-003'
+rpc_component_name_04 = 'rpc-adt-004'
 thermostat_1_component_name = rpc_component_name_01
 thermostat_2_component_name = rpc_component_name_02
 thermostat_3_component_name = rpc_component_name_03
