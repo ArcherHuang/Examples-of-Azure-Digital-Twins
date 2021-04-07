@@ -31,7 +31,7 @@ export default {
       isLoading: false,
       twin: [],
       twinEndName: ['', '', '', ''],
-      rpcPrefixName: 'rpc-t-1219-00',
+      rpcPrefixName: 'rpc-adt-00',
       endpoint: process.env.VUE_APP_IOT_HUB_ENDPOINT,
       deviceKey: process.env.VUE_APP_IOT_HUB_DEVICEKEY,
       policyName: process.env.VUE_APP_IOT_HUB_POLICYNAME,

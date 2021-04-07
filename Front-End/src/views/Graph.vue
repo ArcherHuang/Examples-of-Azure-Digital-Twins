@@ -137,7 +137,7 @@ export default {
       this.twinEndName = ['', '', '', ''];
       if (toolbarTwinType === 'room') {
         this.getTwinCount(this.$store.getters.treeJSON, 'rpc-');
-        const addRpcName = `rpc-t-1203-00${this.twinEndName.indexOf('') + 3}`;
+        const addRpcName = `rpc-adt-00${this.twinEndName.indexOf('') + 3}`;
         Promise.all([
           this.addRpcTwinXY(addRpcName, 0, 0),
         ]).then(() => {
@@ -223,7 +223,7 @@ export default {
     },
     settingRPC() {
       this.$modal.show('set-rpc', {
-        twinId: 'rpc-t-1219-001',
+        twinId: 'rpc-adt-001',
       });
     },
     toggle(d) {

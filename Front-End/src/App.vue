@@ -60,7 +60,7 @@ export default {
   methods: {
     async receiveEventHubData() {
       // window.setInterval((() => {
-      //   this.treeJSON['rpc-t-1219-001'] = {
+      //   this.treeJSON['rpc-adt-001'] = {
       //     '5um': Math.floor(Math.random() * Math.floor(100)),
       //     '3um': Math.floor(Math.random() * Math.floor(100)),
       //     '1um': Math.floor(Math.random() * Math.floor(100)),

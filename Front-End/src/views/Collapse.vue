@@ -189,7 +189,7 @@ export default {
       this.twinEndName = ['', '', '', ''];
       if (toolbarTwinType === 'room') {
         this.getTwinCount(this.$store.getters.treeJSON, 'rpc-');
-        const addRpcName = `rpc-t-1219-00${this.twinEndName.indexOf('') + 3}`;
+        const addRpcName = `rpc-adt-00${this.twinEndName.indexOf('') + 3}`;
         Promise.all([
           this.addRpcTwinXY(addRpcName, 0, 0),
         ]).then(() => {
