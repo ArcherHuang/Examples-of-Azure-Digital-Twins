@@ -20,12 +20,6 @@ import threading
 
 logging.basicConfig(level=logging.ERROR)
 
-# the interfaces that are pulled in to implement the device.
-# User has to know these values as these may change and user can
-# choose to implement different interfaces.
-thermostat_digital_twin_model_identifier = "dtmi:itri:cms:RPCstat;1"
-# device_info_digital_twin_model_identifier = "dtmi:azure:DeviceManagement:DeviceInformation;1"
-
 # The device "TemperatureController" that is getting implemented using the above interfaces.
 # This id can change according to the company the user is from
 # and the name user wants to call this Plug and Play device
@@ -87,7 +81,7 @@ THERMOSTAT_1 = None
 THERMOSTAT_2 = None
 
 IOTHUB_DEVICE_SECURITY_TYPE="connectionString"
-IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key01"
+IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key02"
 IOTHUB_DEVICE_CONNECTION_STRING_DEV2="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key02"
 IOTHUB_DEVICE_CONNECTION_STRING_DEV3="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key03"
 IOTHUB_DEVICE_CONNECTION_STRING_DEV4="HostName=here-your-azure-iothub.net;SharedAccessKeyName=iothubowner;SharedAccessKey=your-device-key04"
