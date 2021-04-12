@@ -1,7 +1,6 @@
 
 ## Contents
 - [Prerequisites](#prerequisites)
-- [Names for Azure Resources](#names-for-azure-resources)
 - [SOP for Initiating Services](#sop-for-initiating-services)
   - [Download Sample Code](#1-download-sample-code)
   - [Install the Azure CLI and Login](#2-install-the-azure-cli-and-login)
