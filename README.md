@@ -10,7 +10,6 @@
   - [Prerequisites](#prerequisites)
   - [Project Repository](#clone)
   - [SOP for Initiating Services](#sop-for-initiating-services)
-  - [Setup App](#setup-app)
 - [Dashboard](#dashboard)
 - [Contributing](#contributing)
 - [License](#license)
