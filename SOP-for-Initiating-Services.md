@@ -75,7 +75,7 @@
   ```
 * e.g.
   ```
-  az group create --name rg-adt-rpc-demo --location eastus
+  az group create --name rpc-adt-rg --location eastus
   ```
 ### 4. Create Azure Digital Twin
 * 4.1 Search `Azure Digital Twins`
