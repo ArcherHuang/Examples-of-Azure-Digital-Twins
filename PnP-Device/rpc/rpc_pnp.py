@@ -81,10 +81,11 @@ THERMOSTAT_1 = None
 THERMOSTAT_2 = None
 
 IOTHUB_DEVICE_SECURITY_TYPE="connectionString"
-IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key"
-IOTHUB_DEVICE_CONNECTION_STRING_DEV2="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key"
-IOTHUB_DEVICE_CONNECTION_STRING_DEV3="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key"
-IOTHUB_DEVICE_CONNECTION_STRING_DEV4="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key"
+IOTHUB_CONNECTION_STRING="HostName=your-iot-hub;SharedAccessKeyName=iothubowner;SharedAccessKey=your-iot-hub-key"
+IOTHUB_DEVICE_CONNECTION_STRING_DEV="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key;SharedAccessKeyName=iothubowner"
+IOTHUB_DEVICE_CONNECTION_STRING_DEV2="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key;SharedAccessKeyName=iothubowner"
+IOTHUB_DEVICE_CONNECTION_STRING_DEV3="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key;SharedAccessKeyName=iothubowner"
+IOTHUB_DEVICE_CONNECTION_STRING_DEV4="HostName=here-your-azure-iothub.net;DeviceId=your-device-id;SharedAccessKey=your-device-key;SharedAccessKeyName=iothubowner"
 
 
 SLEEPTIME = 5
@@ -457,7 +458,7 @@ async def main():
     switch = IOTHUB_DEVICE_SECURITY_TYPE
     if switch == "connectionString":
         conn_str = IOTHUB_DEVICE_CONNECTION_STRING_DEV
-        digital_twin_client = DigitalTwinClient(conn_str)
+        digital_twin_client = DigitalTwinClient(IOTHUB_CONNECTION_STRING)
         digital_twin = digital_twin_client.get_digital_twin(rpc_component_name_01)
         if digital_twin:
             print(digital_twin)
@@ -517,7 +518,7 @@ async def main():
     global THERMOSTAT_2
     global THERMOSTAT_3
     global THERMOSTAT_4
-    THERMOSTAT_1 = Thermostat(thermostat_1_component_name, 10,True)
+    THERMOSTAT_1 = Thermostat(thermostat_1_component_name, 10,False)
     THERMOSTAT_2 = Thermostat(thermostat_2_component_name, 10,False)
     THERMOSTAT_3 = Thermostat(thermostat_3_component_name, 10,False)
     THERMOSTAT_4 = Thermostat(thermostat_4_component_name, 10,False)

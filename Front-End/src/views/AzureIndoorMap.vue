@@ -80,7 +80,8 @@ export default {
             this.twin.push(obj[k]);
             if (searchString === 'rpc-') {
               const tmp = obj[k].split('-');
-              this.twinEndName[parseInt(tmp[3].replace('00', ''), 10) - 1] = obj[k];
+              console.log(`tmp___tmp: ${tmp}`);
+              this.twinEndName[parseInt(tmp[2].replace('00', ''), 10) - 1] = obj[k];
             } else {
               this.twinEndName[parseInt(obj[k].replace('Room-30', ''), 10) - 1] = obj[k];
             }
@@ -329,7 +330,8 @@ export default {
       return token;
     },
     sendCommandToRpc(featureId, rpcId, methodName) {
-      const directMethod = `/command/twins/${rpcId}/methods?api-version=2018-06-30`;
+      // const directMethod = `/command/twins/${rpcId}/methods?api-version=2018-06-30`;
+      const directMethod = `https://${this.endpoint}/twins/${rpcId}/methods?api-version=2018-06-30`;
       const token = this.generateSasToken(this.endpoint, this.deviceKey, this.policyName, 360);
       const bodyData = {
         methodName,
