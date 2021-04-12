@@ -1262,7 +1262,7 @@
 
 ### 16. View live updates on your dashboard
 * Click `Tree Graph`
-![](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC-Image/blob/main/Image/tree-graph-2.png)
+  ![](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC-Image/blob/main/Image/tree-graph-2.png)
 
 ### 17. View live updates on your map
 * Alarm
