@@ -1262,8 +1262,8 @@
 
 ### 16. View live updates on your dashboard
 * Click `Tree Graph`
-  ![](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC-Image/blob/main/Image/tree-graph-2.png)
+  ![](./Image/tree-graph-2.png)
 
 ### 17. View live updates on your map
 * Alarm
-  ![](https://github.com/ArcherHuang/Azure-Digital-Twins-for-RPC-Image/blob/main/Image/map-result-1.png)
+  ![](./Image/map-result-1.png)
