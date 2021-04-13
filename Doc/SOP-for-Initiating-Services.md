@@ -1264,6 +1264,6 @@
 * Click `Tree Graph`
   ![](../Image/tree-graph-2.png)
 
-### 17. View live updates on your map
+### 17. View live updates on your map - [Go To Top](#contents)
 * Alarm
   ![](../Image/map-result-1.png)
