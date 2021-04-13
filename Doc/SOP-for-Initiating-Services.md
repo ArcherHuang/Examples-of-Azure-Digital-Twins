@@ -856,6 +856,19 @@
     az functionapp config appsettings set --settings "EventHubAppSetting-TSI=Endpoint=Endpoint=sb://rpchubspace.servicebus.windows.net/;SharedAccessKeyName=rpctsieventrules;SharedAccessKey=xFE9i04ojQHDRQkZ4F8J6mIsWoo9o4sAVyVbn/uv7tk=;EntityPath=rptsieventhub" -g rpc-adt-rg -n rpcEmitAdtTsiFunctions
     ```
 
+* 9.15 Create `Consumer groups` of rptsieventhub
+  * Please select the `Consumer groups` created in `Step 9.7`
+    ![](../Image/tsi-event-hub-consumer-groups-view.png)
+  * Click `+ Consumer groups`
+    ![](../Image/tsi-event-hub-consumer-groups-add.png)
+  * Input data
+    ![](../Image/tsi-event-hub-consumer-groups-input.png)
+    * `Name` field
+      * Please use a recognizable name, this example uses `rpc-pnp-resourcegroup`
+    * When the input is complete, please click the `Create` button
+  * Operation completes
+    ![](../Image/tsi-event-hub-consumer-groups-view2.png)
+
 ### 10. Create and set TSI Service
 * 10.1 Create and connect a Time Series Insights instance
   * Search `time series insights`
@@ -901,13 +914,13 @@
       * `Subscription` field
         * Select the subscription you want to use
       * `Event Hub namespace` field
-        * Please select the `Endpoint` created in `Step 4.3` (rpchubspace)
+        * Please select the `Endpoint` created in `Step 9.1` (rpchubspace)
       * `Event Hub name` field
-        * Please select the `TSI Event Hub` created in `Step 1.11` (rptsieventhub)
+        * Please select the `TSI Event Hub` created in `Step 9.7` (rptsieventhub)
       * `Event Hub access policy name` field
-        * Please select the `Shared access policies` created in `Step 1.12` (rpctsieventrules)
+        * Please select the `Shared access policies` created in `Step 9.8` (rpctsieventrules)
       * `Event Hub consumer group` field
-        * Please select the `Consumer groups` created in `Step 9.1` (rpc-pnp-resourcegroup)
+        * Please select the `Consumer groups` created in `Step 9.15` (rpc-pnp-resourcegroup)
     * When the input is complete, please click the `Review + create` button
       ![](../Image/tsi-event-source-2.png)
     * Review your settings and select `Review + create`
