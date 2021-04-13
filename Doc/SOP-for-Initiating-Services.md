@@ -259,7 +259,7 @@
   * 6.4.5 Request complete
     ![](../Image/map-16.png)
 * 6.5 To retrieve content metadata
-  * 6.5.1 Copy the `resourceLocation` that was retrieved in `Step 5.4.5`
+  * 6.5.1 Copy the `resourceLocation` that was retrieved in `Step 6.4.5`
     ![](../Image/map-17.png)
   * 6.5.2 Need to append your primary subscription key to the URL for authentication
     * HTTP Method
