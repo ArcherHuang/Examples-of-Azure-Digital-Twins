@@ -354,7 +354,7 @@
       * Comment
         * 1. Modify `AZURE-MAPS-PRIMARY-SUBSCRIPTION-KEY` to `Primary Key`
           ![](../Image/map-key.png)
-        * 2. Modify `DATASETID` to `DATASETID` that was retrieved in `Step 5.7.4`
+        * 2. Modify `DATASETID` to `DATASETID` that was retrieved in `Step 6.7.4`
   * 6.8.2 Click the blue `Send` button and wait for the request to process
     ![](../Image/map-40.png)
   * 6.8.3 Request complete
@@ -380,8 +380,8 @@
       ![](../Image/map-46.png) 
       * Comment
         * The response header will contain the TILESETID for the created dataset. Copy the TILESETID. You'll need to use the TILESETID to create a tileset.
-          * `https://atlas.microsoft.com/tileset/`**35120fec-a07b-c6fa-49e2-cf30e23e2a6b**`?api-version=1.0`
-          * `https://atlas.microsoft.com/tileset/`**TILESETID**`?api-version=1.0`
+          * `https://atlas.microsoft.com/tileset/35120fec-a07b-c6fa-49e2-cf30e23e2a6b?api-version=1.0`
+          * `https://atlas.microsoft.com/tileset/TILESETID?api-version=1.0`
 * 6.9 Query datasets with WFS API
   * 6.9.1 Make a GET request to view a list of the collections in the dataset
     * HTTP Method
@@ -391,7 +391,7 @@
       * Comment
         * 1. Modify `AZURE-MAPS-PRIMARY-SUBSCRIPTION-KEY` to `Primary Key`
           ![](../Image/map-key.png)
-        * 2. Modify `DATASETID` to `DATASETID` that was retrieved in `Step 5.7.4`
+        * 2. Modify `DATASETID` to `DATASETID` that was retrieved in `Step 6.7.4`
   * 6.9.2 Click the blue `Send` button and wait for the request to process
     ![](../Image/map-47.png)
   * 6.9.3 Request complete
@@ -405,7 +405,7 @@
       * Comment
         * 1. Modify `AZURE-MAPS-PRIMARY-SUBSCRIPTION-KEY` to `Primary Key`
           ![](../Image/map-key.png)
-        * 2. Modify `DATASETID` to `DATASETID` that was retrieved in `Step 5.7.4`
+        * 2. Modify `DATASETID` to `DATASETID` that was retrieved in `Step 6.7.4`
   * 6.10.2 Click the blue `Send` button and wait for the request to process
     ![](../Image/map-49.png)
   * 6.10.3 Request complete
@@ -421,7 +421,7 @@
       * Comment
         * 1. Modify `AZURE-MAPS-PRIMARY-SUBSCRIPTION-KEY` to `Primary Key`
           ![](../Image/map-key.png)
-        * 2. Modify `DATASETID` to `DATASETID` that was retrieved in `Step 5.7.4`
+        * 2. Modify `DATASETID` to `DATASETID` that was retrieved in `Step 6.7.4`
     * Headers
       * Content-Type: `application/json`
         ![](../Image/map-54.png)
@@ -462,8 +462,8 @@
       * Comment
         * 1. Modify `AZURE-MAPS-PRIMARY-SUBSCRIPTION-KEY` to `Primary Key`
           ![](../Image/map-key.png)
-        * 2. Modify `STATESETID` to `STATESETID` that was retrieved in `Step 5.11.3`
-        * 3. Modify `FEATUREID` to `id` that was retrieved in `Step 5.10.3`
+        * 2. Modify `STATESETID` to `statesetId` that was retrieved in `Step 6.11.3`
+        * 3. Modify `FEATUREID` to `id` that was retrieved in `Step 6.10.3`
     * Headers
       * Content-Type: `application/json`
         ![](../Image/map-55.png)
@@ -574,7 +574,7 @@
     ![](../Image/IngestADTFunctions-5.png)
   * Click `Azure Function App (Windows)` > `Next`
     ![](../Image/IngestADTFunctions-6.png)
-  * Please select the function created in `Step 6.1`
+  * Please select the function created in `Step 7.1`
     ![](../Image/IngestADTFunctions-7.png)
   * Click `Publish`
     ![](../Image/IngestADTFunctions-8.png)
@@ -750,7 +750,7 @@
         ![](../Image/IngestADTFunctions-5.png)
       * Click `Azure Function App (Windows)` > `Next`
         ![](../Image/IngestADTFunctions-6.png)
-      * Please select the function created in `Step 8.6.1`
+      * Please select the function created in `Step 9.6.1`
         ![](../Image/EmitAdtTsi-7.png)
       * Click `Publish`
         ![](../Image/EmitAdtTsi-8.png)
