@@ -343,8 +343,8 @@
       ![](../Image/map-39.png)
       * Comment
         * The response header will contain the DATASETID for the created dataset. Copy the DATASETID. You'll need to use the DATASETID to create a tileset.
-          * `https://atlas.microsoft.com/dataset/**9352e113-9133-b24b-64ee-adb5b9d92857**?api-version=1.0`
-          * `https://azure.microsoft.com/dataset/**DATASETID**?api-version=1.0`
+          * `https://atlas.microsoft.com/dataset/9352e113-9133-b24b-64ee-adb5b9d92857?api-version=1.0`
+          * `https://azure.microsoft.com/dataset/DATASETID?api-version=1.0`
 * 6.8 Create a tileset
   * 6.8.1 Create tileset request
     * HTTP Method
