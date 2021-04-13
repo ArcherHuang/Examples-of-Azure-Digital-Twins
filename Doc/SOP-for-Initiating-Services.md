@@ -970,7 +970,7 @@
       ```
 
 * 11.2 Create & Deploy a function in Azure
-  * 10.2.1 Create Azure Functions
+  * 11.2.1 Create Azure Functions
     * Search `function`
       ![](../Image/---2021-03-30---10.34.09.png)
     * Select `Function App`
@@ -1016,7 +1016,7 @@
         ![](../Image/IngestADTFunctions-5.png)
       * Click `Azure Function App (Windows)` > `Next`
         ![](../Image/IngestADTFunctions-6.png)
-      * Please select the function created in `Step 10.2.1`
+      * Please select the function created in `Step 11.2.1`
         ![](../Image/toMap-7.png)
       * Click `Publish`
         ![](../Image/toMap-8.png)
@@ -1063,7 +1063,7 @@
           * `Resource group` field
             * Please select the `resource group` created in `Step 3`
           * `Function app` field
-            * Please select the function created in `Step 10.2`
+            * Please select the function created in `Step 11.2`
           * `Slot` field
             * Select `Production`
           * `Function` field
@@ -1145,8 +1145,8 @@
     * Comment
       * VUE_APP_MAP_SUBSCRIPTION_KEY
         ![](../Image/env-1.png)
-      * VUE_APP_MAP_TILESETID was retrieved in Step 10.8.4
-      * VUE_APP_MAP_STATESETID was retrieved in Step 10.11.3
+      * VUE_APP_MAP_TILESETID was retrieved in Step 6.8.4
+      * VUE_APP_MAP_STATESETID was retrieved in Step 6.11.3
       * VUE_APP_EVENT_HUB_CONNECTIONSTRING
         ![](../Image/env-2.png)
       * VUE_APP_EVENT_HUB_NAME
@@ -1208,7 +1208,7 @@
     ![](../Image/iot-hub-1.png)
   * Select `IoT Hub`
     ![](../Image/iot-hub-2.png)
-  * Click on the `IoT Hub` created in `Step 5.4`
+  * Click on the `IoT Hub` created in `Step 8.4`
     ![](../Image/iot-hub-3.png)
   * Click `IoT Devices` 
     ![](../Image/iot-hub-4.png)
