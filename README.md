@@ -91,7 +91,7 @@ The sample repo contains:
   ```
   
 ### SOP for Initiating Services
-* [Step-By-Step Instructions](./SOP-for-Initiating-Services.md)
+* [Step-By-Step Instructions](./Doc/SOP-for-Initiating-Services.md)
 
 # Contributing
 * [Lin, Hung-Wei](https://github.com/levanlin)
