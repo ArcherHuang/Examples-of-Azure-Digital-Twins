@@ -4,6 +4,9 @@ export default {
   addTwin(twinName, addTwinJSON) {
     return apiHelper.put(`/api/proxy/digitaltwins/${twinName}?api-version=2020-10-31`, addTwinJSON);
   },
+  getTwin(twinId) {
+    return apiHelper.get(`/api/proxy/digitaltwins/${twinId}?api-version=2020-10-31`);
+  },
   getTwinRelationships(twinId) {
     return apiHelper.get(`/api/proxy/digitaltwins/${twinId}/relationships?api-version=2020-10-31`);
   },

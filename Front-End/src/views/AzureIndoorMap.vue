@@ -80,7 +80,7 @@ export default {
             this.twin.push(obj[k]);
             if (searchString === 'rpc-') {
               const tmp = obj[k].split('-');
-              console.log(`tmp___tmp: ${tmp}`);
+              // console.log(`tmp___tmp: ${tmp}`);
               this.twinEndName[parseInt(tmp[2].replace('00', ''), 10) - 1] = obj[k];
             } else {
               this.twinEndName[parseInt(obj[k].replace('Room-30', ''), 10) - 1] = obj[k];

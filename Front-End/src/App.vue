@@ -55,7 +55,12 @@ export default {
     Navbar,
   },
   mounted() {
-    this.$store.dispatch('getTwinsRelationships', 'B12-F3');
+    this.$store.dispatch('checkTwinExist', {
+      name: 'B12-F3',
+      keyName: 'floorName',
+      model: 'dtmi:itri:cms:Floor;3',
+    });
+    // this.$store.dispatch('getTwinsRelationships', 'B12-F3');
   },
   methods: {
     async receiveEventHubData() {

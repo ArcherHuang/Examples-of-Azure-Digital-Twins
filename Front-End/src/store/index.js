@@ -153,11 +153,61 @@ export default new Vuex.Store({
       this.dispatch('addFeatureIdInTree', payload);
     },
     // eslint-disable-next-line
+    async checkTwinExist({ commit, dispatch, state }, twinInfo) {
+      try {
+        await twinAPI.getTwin(twinInfo.name);
+        dispatch('getTwinsRelationships', twinInfo.name);
+      } catch (error) {
+        const addJSON = {
+          $metadata: {
+            $model: twinInfo.model,
+            kind: 'DigitalTwin',
+          },
+          [twinInfo.keyName]: twinInfo.name,
+        };
+        await twinAPI.addRpcTwin(twinInfo.name, addJSON);
+        Promise.all([
+          dispatch('initCreatTwinAndRelation', 1),
+          dispatch('initCreatTwinAndRelation', 2),
+          dispatch('initCreatTwinAndRelation', 3),
+          dispatch('initCreatTwinAndRelation', 4),
+        ]).then(() => {
+          dispatch('getTwinsRelationships', 'B12-F3');
+        });
+      }
+    },
+    // eslint-disable-next-line
+    async initCreatTwinAndRelation({ commit, dispatch, state }, no) {
+      console.log(`initCreatTwinAndRelation_initCreatTwinAndRelation: ${no}`);
+      const roomJSONInfo = {
+        name: `Room-30${no}`,
+        keyName: 'roomName',
+        model: 'dtmi:itri:cms:Room;4',
+      };
+      const addJSON = {
+        $metadata: {
+          $model: roomJSONInfo.model,
+          kind: 'DigitalTwin',
+        },
+        [roomJSONInfo.keyName]: roomJSONInfo.name,
+      };
+      await twinAPI.addRpcTwin(roomJSONInfo.name, addJSON);
+      const addtwinRelationJSON = {
+        $targetId: `Room-30${no}`,
+        $relationshipName: 'rooms',
+      };
+      await twinAPI.addRoomRpcRelation(
+        'B12-F3', `B12-F3_to_Room-30${no}`, addtwinRelationJSON,
+      );
+    },
+    // eslint-disable-next-line
     async getTwinsRelationships({ commit, dispatch, state }, twinId) {
       try {
         const { data } = await twinAPI.getTwinRelationships(twinId);
+        console.log(`getTwinsRelationships__data: ${data}`);
         const promises = [];
         data.value.forEach((child) => {
+          console.log(`childchildchild: ${JSON.stringify(child)}`);
           if (child.$relationshipName === 'rooms') {
             const newNode = {
               name: child.$targetId,
@@ -201,7 +251,7 @@ export default new Vuex.Store({
           console.log(`77777_treeJSON__treeJSON: ${JSON.stringify(state.treeJSON)}`);
         });
       } catch (error) {
-        console.error(error.message);
+        console.error(`222error: ${error.message}`);
       }
     },
   },
