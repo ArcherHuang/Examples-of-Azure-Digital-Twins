@@ -282,7 +282,7 @@
       * Comment
         * 1. Modify `AZURE-MAPS-PRIMARY-SUBSCRIPTION-KEY` to `Primary Key`
           ![](../Image/map-key.png)
-        * 2. Modify `UDID` to `udid` that was retrieved in `Step 5.5.2`
+        * 2. Modify `UDID` to `udid` that was retrieved in `Step 6.5.2`
     * Headers
       * Content-Type: `application/json`
         ![](../Image/map-19.png)
@@ -308,8 +308,8 @@
       ![](../Image/map-33.png)
       * Comment
         * Copy the conversionId from the resourceLocation URL for the converted package. The conversionId is used by other API to access the converted map data.
-          * https://atlas.microsoft.com/conversion/`8648ea79-14c1-b00e-d898-4fed5c846474`?api-version=1.0
-          * https://atlas.microsoft.com/conversion/`CONVERSIONID`?api-version=1.0
+          * https://atlas.microsoft.com/conversion/8648ea79-14c1-b00e-d898-4fed5c846474?api-version=1.0
+          * https://atlas.microsoft.com/conversion/CONVERSIONID?api-version=1.0
 * 6.7 Create a dataset
   * 6.7.1 Create dataset request
     * HTTP Method
@@ -319,7 +319,7 @@
       * Comment
         * 1. Modify `AZURE-MAPS-PRIMARY-SUBSCRIPTION-KEY` to `Primary Key`
           ![](../Image/map-key.png)
-        * 2. Modify `CONVERSIONID` to `CONVERSIONID` that was retrieved in `Step 5.6.8`
+        * 2. Modify `CONVERSIONID` to `CONVERSIONID` that was retrieved in `Step 6.6.8`
   * 6.7.2 Click the blue `Send` button and wait for the request to process
     ![](../Image/map-34.png)
   * 6.7.3 Request complete
@@ -343,8 +343,8 @@
       ![](../Image/map-39.png)
       * Comment
         * The response header will contain the DATASETID for the created dataset. Copy the DATASETID. You'll need to use the DATASETID to create a tileset.
-          * `https://atlas.microsoft.com/dataset/`**9352e113-9133-b24b-64ee-adb5b9d92857**`?api-version=1.0`
-          * `https://azure.microsoft.com/dataset/`**DATASETID**`?api-version=1.0`
+          * `https://atlas.microsoft.com/dataset/**9352e113-9133-b24b-64ee-adb5b9d92857**?api-version=1.0`
+          * `https://azure.microsoft.com/dataset/**DATASETID**?api-version=1.0`
 * 6.8 Create a tileset
   * 6.8.1 Create tileset request
     * HTTP Method
