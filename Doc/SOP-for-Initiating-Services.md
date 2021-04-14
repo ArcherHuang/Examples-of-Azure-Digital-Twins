@@ -43,6 +43,8 @@
   * [Azure CLI](https://docs.microsoft.com/zh-tw/cli/azure/install-azure-cli)
 * API Client
   * [Postman](https://www.postman.com/)
+* Drawing package
+  * [AutoCAD](https://www.autodesk.com.tw/products/autocad/overview?term=1-YEAR)
 
 ## SOP for Initiating Services
 ### 1. Download Sample Code
