@@ -87,8 +87,8 @@ The sample repo contains:
 ### Clone
 * Clone this repository to your local machine
   ```
-  $ git clone https://github.com/ArcherHuang/Azure-Digital-Twins-for-Azure-Percept.git
-  $ cd Azure-Digital-Twins-for-Azure-Percept
+  $ git clone https://github.com/ArcherHuang/Examples-of-Azure-Digital-Twins.git
+  $ cd Examples-of-Azure-Digital-Twins
   $ git branch -a
   $ git checkout -t origin/Azure-Percept
   $ git branch
