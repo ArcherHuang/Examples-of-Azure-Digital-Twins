@@ -296,7 +296,7 @@
         ![](../Image/map-9.png)
     * Body
       * Select `binary`
-      * Select File: Upload `./Azure-Digital-Twins-for-RPC/Indoor-Map-Files/Indoor-Map-Files.zip`
+      * Select File: Upload `./Examples-of-Azure-Digital-Twins-Azure-Percept/Indoor-Map-Files/Indoor-Map-Files.zip`
         ![](../Image/map-11.png)
         ![](../Image/map-10.png)
   * 6.3.2 Click the blue `Send` button and wait for the request to process
@@ -1162,7 +1162,7 @@
 * 12.2 Proxy Server
   * Enter the project folder
     ```
-    cd ./Azure-Digital-Twins-for-RPC/Back-End/Proxy
+    cd ./Examples-of-Azure-Digital-Twins-Azure-Percept/Back-End/Proxy
     ```
   * Install packages via npm
     ```
@@ -1173,7 +1173,7 @@
     touch .env
     ```
   * Store Key in .env file and save
-    * Add ./Azure-Digital-Twins-for-RPC/Back-End/Proxy/.env content
+    * Add ./Examples-of-Azure-Digital-Twins-Azure-Percept/Back-End/Proxy/.env content
       ```
       AZURE_DIGITAL_TWINS_HOST_NAME=https://
       ```
@@ -1194,7 +1194,7 @@
 * 12.3 Dashboard Server
   * Enter the project folder
     ```
-    cd ./Azure-Digital-Twins-for-RPC/Front-End
+    cd ./Examples-of-Azure-Digital-Twins-Azure-Percept/Front-End
     ```
   * Install packages via npm
     ```
@@ -1205,7 +1205,7 @@
     touch .env
     ```
   * Create .env file
-    * Add ./Azure-Digital-Twins-for-RPC/Front-End/.env content
+    * Add ./Examples-of-Azure-Digital-Twins-Azure-Percept/Front-End/.env content
       ```
       VUE_APP_MAP_SUBSCRIPTION_KEY=
       VUE_APP_MAP_TILESETID=
@@ -1256,7 +1256,7 @@
       ![](../Image/ui-3.png)
     * Click `Browse`
       ![](../Image/ui-4.png)
-    * Select `./Azure-Digital-Twins-for-RPC/DTDL-Model/floor-v4.json`
+    * Select `./Examples-of-Azure-Digital-Twins-Azure-Percept/DTDL-Model/floor-v4.json`
       ![](../Image/ui-5.png)
     * Click `Submit`
       ![](../Image/ui-6.png)
@@ -1267,7 +1267,7 @@
       ![](../Image/ui-80.png)
     * Click `Browse`
       ![](../Image/ui-4.png)
-    * Select `./Azure-Digital-Twins-for-RPC/DTDL-Model/room-v4.json`
+    * Select `./Examples-of-Azure-Digital-Twins-Azure-Percept/DTDL-Model/room-v4.json`
       ![](../Image/ui-8.png)
     * Click `Submit`
       ![](../Image/ui-6.png)
@@ -1278,7 +1278,7 @@
       ![](../Image/ui-101.png)
     * Click `Browse`
       ![](../Image/ui-4.png)
-    * Select `./Azure-Digital-Twins-for-RPC/DTDL-Model/peceptorStats-v1.json`
+    * Select `./Examples-of-Azure-Digital-Twins-Azure-Percept/DTDL-Model/peceptorStats-v1.json`
       ![](../Image/ui-10.png)
     * Click `Submit`
     * Upload finish
@@ -1311,7 +1311,7 @@
 * 13.3 Install Package on the Plug and Play Device
   * Enter the project folder
     ```
-    cd ./Azure-Digital-Twins-for-RPC/PnP-Device/Percept
+    cd ./Examples-of-Azure-Digital-Twins-Azure-Percept/PnP-Device/Percept
     ```
   * Install
     ```
@@ -1351,7 +1351,7 @@
 * 15.1 Run percept_pnp.py
   * Enter the project folder
     ```
-    cd ./Azure-Digital-Twins-for-RPC/PnP-Device/Percept
+    cd ./Examples-of-Azure-Digital-Twins-Azure-Percept/PnP-Device/Percept
     ```
   * Run
     ```
