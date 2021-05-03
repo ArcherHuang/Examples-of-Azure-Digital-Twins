@@ -60,7 +60,7 @@
   * https://github.com/ArcherHuang/Examples-of-Azure-Digital-Twins/tree/Azure-Percept
 * 1.2 Click `Code` > `Download ZIP`
   ![](../Image/---2021-03-30---8.22.19.png)
-* 1.3 Unzip `Azure-Digital-Twins-for-RPC-main.zip`
+* 1.3 Unzip `Examples-of-Azure-Digital-Twins-Azure-Percept.zip`
 ### 2. Install the Azure CLI and Login
 * 2.1 Install the Azure CLI
   * [Reference documentation](https://docs.microsoft.com/zh-tw/cli/azure/install-azure-cli)
