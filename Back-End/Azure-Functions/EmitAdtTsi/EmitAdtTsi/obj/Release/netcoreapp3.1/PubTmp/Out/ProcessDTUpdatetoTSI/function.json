@@ -1,0 +1,15 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-3.0.7",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "connection": "EventHubAppSetting-Twins",
+      "eventHubName": "rpcadteventhub",
+      "name": "myEventHubMessage"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/EmitAdtTsi.dll",
+  "entryPoint": "EmitAdtTsi.Function1.Run"
+}
