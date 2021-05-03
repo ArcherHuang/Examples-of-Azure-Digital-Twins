@@ -102,4 +102,4 @@ The sample repo contains:
 * [Huang, Cheng-Chuan](https://github.com/ArcherHuang)
 
 # License
-Azure Digital Twins for Remote Particle Counter is licensed under the [MIT](./LICENSE) license.
+Azure Digital Twins for Azure Percepte is licensed under the [MIT](./LICENSE) license.
