@@ -130,14 +130,22 @@ async def send_telemetry_configuration(rpcSensor, device_client, component_name=
     await asyncio.sleep(1)
 
 def rpc_payload(rpcSensor):
-    my_dict = {}
-    my_dict[PEOPLECOUNTName] = 0
-    my_dict[PROPERTYALARM] = -1
-    my_dict[PROPERTYROOMID]= rpcSensor.roomId
+    # my_dict = {}
+    # my_dict[PEOPLECOUNTName] = 0
+    # my_dict[PROPERTYALARM] = -1
+    # my_dict[PROPERTYROOMID]= rpcSensor.roomId
     import time
     localtime = int(time.time()) 
     print('now local time now {} '.format(localtime))
-    my_dict[PROPERTYTIMESTAMP] = localtime
+    # my_dict[PROPERTYTIMESTAMP] = localtime
+
+    my_dict = {
+                "NEURAL_NETWORK": [{
+                    "label": "person",
+                    "timestamp": localtime
+                }]
+            }
+    print(my_dict)
     return my_dict
 
 
@@ -252,14 +260,26 @@ async def main():
         while True:
             my_dict= {}
             if(THERMOSTAT_1.run):
-                curr_temp_ext = random.randrange(randomMinValue, randomMaxValue)
+                # curr_temp_ext = random.randrange(randomMinValue, randomMaxValue)
                 # THERMOSTAT_1.putRecord(curr_temp_ext,PEOPLECOUNTName)
-                my_dict[PEOPLECOUNTName] = curr_temp_ext
+                # my_dict[PEOPLECOUNTName] = curr_temp_ext
+                import time
+                localtime = int(time.time()) 
+                my_dict = {
+                        "NEURAL_NETWORK": [{
+                            "label": "person",
+                            "timestamp": localtime
+                        }, 
+                        {
+                            "label": "person",
+                            "timestamp": localtime
+                        }]
+                    }
  
                 res = not bool(my_dict) 
                 if not res :
-                    my_dict[PROPERTYALARM] = 0
-                    my_dict[PROPERTYROOMID]=THERMOSTAT_1.roomId
+                    # my_dict[PROPERTYALARM] = 0
+                    # my_dict[PROPERTYROOMID]=THERMOSTAT_1.roomId
 
                     await send_telemetry_from_temp_controller(
                         device_client, my_dict, thermostat_1_component_name

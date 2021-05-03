@@ -78,9 +78,11 @@ export default {
       this.subscription = consumerClient.subscribe({
         processEvents: async (events, context) => {
           events.forEach((event) => {
+            console.log(`TSI__Received__event: ${JSON.stringify(event.body)}`);
             this.treeJSON[event.body.$dtId] = {
               count: event.body.pplcount,
             };
+            // console.log(`event.body.pplcount: ${event.body.pplcount}`);
             this.$store.commit('setTreeJSON', this.treeJSON);
             this.treeJSON = {};
             this.eventData = event.body;
