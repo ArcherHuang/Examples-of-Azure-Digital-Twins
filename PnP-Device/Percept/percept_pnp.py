@@ -263,17 +263,18 @@ async def main():
                 # curr_temp_ext = random.randrange(randomMinValue, randomMaxValue)
                 # THERMOSTAT_1.putRecord(curr_temp_ext,PEOPLECOUNTName)
                 # my_dict[PEOPLECOUNTName] = curr_temp_ext
+                randomNo = random.randrange(randomMinValue, randomMaxValue)
+                print('randomNo %d' % randomNo)
                 import time
                 localtime = int(time.time()) 
+                personList = []
+                for i in range(0, randomNo):
+                    personList.append({
+                        "label": "person",
+                        "timestamp": localtime
+                    })
                 my_dict = {
-                        "NEURAL_NETWORK": [{
-                            "label": "person",
-                            "timestamp": localtime
-                        }, 
-                        {
-                            "label": "person",
-                            "timestamp": localtime
-                        }]
+                        "NEURAL_NETWORK": personList
                     }
  
                 res = not bool(my_dict) 
