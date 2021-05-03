@@ -57,7 +57,7 @@
 ## SOP for Initiating Services
 ### 1. Download Sample Code
 * 1.1 Download project
-  * https://github.com/ArcherHuang/Azure-Digital-Twins-for-Azure-Percept/tree/Azure-Percept
+  * https://github.com/ArcherHuang/Examples-of-Azure-Digital-Twins/tree/Azure-Percept
 * 1.2 Click `Code` > `Download ZIP`
   ![](../Image/---2021-03-30---8.22.19.png)
 * 1.3 Unzip `Azure-Digital-Twins-for-RPC-main.zip`
