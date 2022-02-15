@@ -8,6 +8,7 @@
   - [Create Azure Digital Twin](#4-create-azure-digital-twin)
   - [Set AD for Azure Map](#5-set-ad-for-azure-map)
   - [Upload DWG & manifest.json to Azure Map using Postman](#6-upload-dwg--manifestjson-to-azure-map-using-postman----ref-)
+    - New Ref https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps 
   - [Create & Deploy toADT Function](#7-create--deploy-toadt-function)
   - [Create Azure IoT Hub, Set Event Grid, Create IoT Device](#8-create-azure-iot-hub-set-event-grid-create-iot-device)
   - [Set Event & toTsi Function](#9-set-event--totsi-function)
