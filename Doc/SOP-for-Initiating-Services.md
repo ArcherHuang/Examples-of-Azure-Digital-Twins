@@ -283,7 +283,7 @@
         ![](../Image/map-28.png)
 * 6.2 Download and install `Postman`
   * https://www.postman.com/downloads/
-* 6.3 Upload a Drawing package to `Azure Map`
+* 6.3 Upload a Drawing package to `Azure Map` - ※ Step 6.3 ~ 6.12 [Please refer to the new document](https://docs.microsoft.com/zh-tw/azure/azure-maps/tutorial-creator-indoor-maps )
   * 6.3.1 Create Request
     * HTTP Method
       * POST
