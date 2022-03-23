@@ -1,0 +1,14 @@
+{
+  "styles": [
+    {
+      "keyname": "Alarm002",
+      "type": "boolean",
+      "rules": [
+        {
+          "true": "#e71313",
+          "false": "#3f0feb"
+        }
+      ]
+    }
+  ]
+}
