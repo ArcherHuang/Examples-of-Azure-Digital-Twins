@@ -23,12 +23,13 @@ flowchart LR
   B --> C[Azure Function]
   C --> D[Azure Digital Twins]
   D --> E[Azure Event Grid] --> L[Azure Function] --> F[Azure Maps]
-  G[Frontend : Azure Map + Azure Digital Twin] --> H[Azure Function]
+  G[Frontend : Azure Map + Azure Digital Twin - Azure App Service] --> H[Azure Function]
   H --> D
   I[Azure Digital Twins Explorer] --> D
   J[DWG + manifest.json] --> K[Postman]--> F
   F --> G
   N[Azure Active Directory] --> M[Postman] --> D
+  O[Docker Hub] --> G
 ```
 
 ## Cloud service used
