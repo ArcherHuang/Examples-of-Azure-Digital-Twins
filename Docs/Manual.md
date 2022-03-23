@@ -477,6 +477,7 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 
 ## 11. Dashboard
 * `lift` Device
+
 ![](../Images/lift001.png)
 
 * Web
