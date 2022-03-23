@@ -485,7 +485,7 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 
 ![](../Images/lift001.png)
 
-* The threshold for the lift001 device
+* The threshold for the `lift001` device
 
 |        Item        | Threshold | Telemetry | isAlarm |
 |:------------------:|:---------:|:---------:|:-------:|
@@ -494,7 +494,7 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 | SV02 (電壓 Sensor) |     70    |     65    |         |
 | SI01 (電流 Sensor) |     20    |     4     |         |
 
-* Frontend : Azure Map + Azure Digital Twin ( The lift001 device is located in room 110 )
+* Frontend : Azure Map + Azure Digital Twin ( The `lift001` device is located in room 110 )
 
 ![](../Images/dashboard.png)
 
