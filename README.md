@@ -29,7 +29,6 @@ flowchart LR
   J[DWG + manifest.json] --> K[Postman]--> F
   F --> G
   N[Azure Active Directory] --> M[Postman] --> D
-  D --> O[Azure Event Hub] --> P[Azure Function] --> O --> Q[Azure Time Series Insights]
 ```
 
 ## Cloud service used
