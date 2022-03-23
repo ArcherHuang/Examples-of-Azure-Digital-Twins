@@ -1,0 +1,151 @@
+{
+  "@context": [
+    "dtmi:dtdl:context;2"
+  ],
+  "@id": "dtmi:cms:model003;1",
+  "@type": "Interface",
+  "displayName": "升降馬達",
+  "description": "升降馬達",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "SP01",
+      "displayName": "壓力 Sensor",
+      "description": "壓力 Sensor",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "ST01",
+      "displayName": "溫度 Sensor",
+      "description": "溫度 Sensor",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "SV02",
+      "displayName": "電壓 Sensor (50V ~ 100V)",
+      "description": "電壓 Sensor (50V ~ 100V)",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "SI01",
+      "displayName": "電流 Sensor",
+      "description": "電流 Sensor",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "featureId",
+      "displayName": "Room ID",
+      "description": "what room machine allocated",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "operator",
+      "displayName": "操作員",
+      "description": "操作員ID",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "upTime",
+      "displayName": "運轉總時間",
+      "description": "機台開機總時數",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "machineSpeed",
+      "displayName": "生產運轉速率",
+      "description": "機台運轉速率",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "machineActivation",
+      "displayName": "生產傢動率",
+      "description": "生產傢動率",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "orderNum",
+      "displayName": "生產數量",
+      "description": "生產總量",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "threshold_SP01",
+      "displayName": "壓力 Sensor 的門檻值",
+      "description": "壓力 Sensor 的門檻值",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "threshold_ST01",
+      "displayName": "溫度 Sensor 的門檻值",
+      "description": "溫度 Sensor 的門檻值",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "threshold_SV02",
+      "displayName": "電壓 Sensor (50V ~ 100V) 的門檻值",
+      "description": "電壓 Sensor (50V ~ 100V) 的門檻值",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "threshold_SI01",
+      "displayName": "電流 Sensor 的門檻值",
+      "description": "電流 Sensor 的門檻值",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "is_display_featureId",
+      "displayName": "是否顯示 Room ID",
+      "description": "是否顯示 what room machine allocated",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "is_display_operator",
+      "displayName": "是否顯示操作員",
+      "description": "是否顯示操作員ID",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "is_display_upTime",
+      "displayName": "是否顯示運轉總時間",
+      "description": "是否顯示機台開機總時數",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "is_display_machineSpeed",
+      "displayName": "是否顯示生產運轉速率",
+      "description": "是否顯示機台運轉速率",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "is_display_machineActivation",
+      "displayName": "是否顯示生產傢動率",
+      "description": "是否顯示生產傢動率",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "is_display_orderNum",
+      "displayName": "是否顯示生產數量",
+      "description": "是否顯示生產總量",
+      "schema": "boolean"
+    }
+  ]
+}
