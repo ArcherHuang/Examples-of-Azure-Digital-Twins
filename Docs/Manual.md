@@ -494,7 +494,7 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 | SV02 (電壓 Sensor) |     70    |     65    |         |
 | SI01 (電流 Sensor) |     20    |     4     |         |
 
-* Web ( The lift001 device is located in room 110 )
+* Frontend : Azure Map + Azure Digital Twin ( The lift001 device is located in room 110 )
 
 ![](../Images/dashboard.png)
 
