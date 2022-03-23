@@ -11,7 +11,7 @@
   - [8. Set Endpoint & Event Routes](#8-set-endpoint--event-routes)
   - [9. Frontend : Azure Map + Azure Digital Twin](#9-frontend--azure-map--azure-digital-twin)
   - [10. Start Device](#10-start-device)
-  - [11. Device & Dashboard](#11-dashboard)
+  - [11. Device & Dashboard](#11-device--dashboard)
 
 # Prerequisites
 |      Category     |                                                      Item                                                      |
