@@ -491,9 +491,9 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 
 * Threshold
 
-|        Item        | Threshold | Telemetry |
-|:------------------:|:---------:|:---------:|
-| SP01 (壓力 Sensor) |     20    |     14    |
-| ST01 (溫度 Sensor) |     20    |     34    |
-| SV02 (電壓 Sensor) |     70    |     65    |
-| SI01 (電流 Sensor) |     20    |     4     |
+|        Item        | Threshold | Telemetry | isAlarm |
+|:------------------:|:---------:|:---------:|:-------:|
+| SP01 (壓力 Sensor) |     20    |     14    |         |
+| ST01 (溫度 Sensor) |     20    |     34    |    ✓    |
+| SV02 (電壓 Sensor) |     70    |     65    |         |
+| SI01 (電流 Sensor) |     20    |     4     |         |
