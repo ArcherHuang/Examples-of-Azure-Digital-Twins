@@ -497,3 +497,7 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 * Web ( The lift001 device is located in room 110 )
 
 ![](../Images/dashboard.png)
+
+* Azure Digital Twins Explorer
+
+![](../Images/adt-explorer.png)
