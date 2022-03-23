@@ -488,3 +488,12 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 * Web
 
 ![](../Images/dashboard.png)
+
+* Threshold
+
+|        Item        | Threshold |
+|:------------------:|:---------:|
+| SP01 (壓力 Sensor) |     20    |
+| ST01 (溫度 Sensor) |     20    |
+| SV02 (電壓 Sensor) |     70    |
+| SI01 (電流 Sensor) |     20    |
