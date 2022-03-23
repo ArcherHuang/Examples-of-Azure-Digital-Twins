@@ -485,7 +485,7 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 
 ![](../Images/lift001.png)
 
-* Threshold
+* The threshold for the Lift device
 
 |        Item        | Threshold | Telemetry | isAlarm |
 |:------------------:|:---------:|:---------:|:-------:|
