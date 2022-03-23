@@ -409,8 +409,6 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
   az webapp restart --name <AppServiceName> --resource-group <ResourceGroup>
   ```
 
----
-
 ## 10. Start Device
 * Install Package
   ```
