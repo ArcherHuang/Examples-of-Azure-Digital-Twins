@@ -2,7 +2,7 @@
 - [Prerequisites](#prerequisites)
 - [Steps](#steps)
   - [1. Download project from GitHub](#1-download-project-from-github)
-  - [2. Install the Azure CLI and Login](#2-install-the-azure-cli-and-login)
+  - [2. Sign in](#2-sign-in)
   - [3. Create a resource group](#3-create-a-resource-group)
   - [4. Use Creator to create indoor maps](#4-use-creator-to-create-indoor-maps)
   - [5. Create Azure Digital Twin & Initial Property](#5-create-azure-digital-twin--initial-property)
@@ -27,7 +27,7 @@
 ## 1. Download project from GitHub
 * https://github.com/ArcherHuang/Examples-of-Azure-Digital-Twins/tree/CMS
 
-## 2. Install the Azure CLI and Login
+## 2. Sign in
 * Sign in with Azure CLI
   ```
   az login
