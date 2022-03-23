@@ -66,7 +66,7 @@ The Digital Twins Definition Language (DTDL) is a language for describing models
       * [axios: ^0.26.0](https://www.npmjs.com/package/axios)
       * [dotenv: ^16.0.0](https://www.npmjs.com/package/dotenv)
 * Device
-  * Node.js v14
+  * [Node.js v14](https://nodejs.org/en/download/)
      * [azure-iot-device: ^1.17.8](https://www.npmjs.com/package/azure-iot-device)
      * [azure-iot-device-mqtt: ^1.15.8](https://www.npmjs.com/package/azure-iot-device-mqtt)
      * [dotenv: ^16.0.0](https://www.npmjs.com/package/dotenv)
