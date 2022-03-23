@@ -272,8 +272,6 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
     ```
   
 ## 7. Create & Deploy Azure Function
-* Install Azure Functions for Visual Studio Code
-  * https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions
 * Use VS Code to Upload Code
   * VS Code `Azure` > `Local Project`> `Initialize Project for Use with VS Code` > `Functions` > `Deploy to Function App...` > `+ Create new Function App in Azure... Advanced` > `Input Function Name` > `Node.js 14 LTS` > `Windows` > `Select Resource Group` > `East US` > `Consumption` > `+ Create new storage account` > `Input Storage Account Name` > `+ Create new Application Insights resource` > `Input Application Insights Resource Name`
 
