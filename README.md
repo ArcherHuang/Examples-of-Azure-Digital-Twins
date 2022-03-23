@@ -40,6 +40,7 @@ flowchart LR
 * [Azure Maps](https://docs.microsoft.com/zh-tw/azure/azure-maps/about-azure-maps)
 * [Azure Event Grid](https://docs.microsoft.com/en-us/azure/event-grid/)
 * [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/)
+* [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/)
 
 ## Digital Twins Definition Language
 The Digital Twins Definition Language (DTDL) is a language for describing models and interfaces for IoT digital twins such as shipping containers, rooms, factory floors, or logical entities that participate in IoT solutions as well as describes a digital twin's device capabilities. The DTDL in this sample project describes the properties and relationship in a specific device. The DTDL model is defined as following 3 sections:  
