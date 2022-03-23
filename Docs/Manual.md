@@ -414,7 +414,7 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
   ```
   cd ./Examples-of-Azure-Digital-Twins/Device
   ```
-  
+
 * Install Package
   ```
   npm i
@@ -462,22 +462,22 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 
 * Run `leftR2r001` Device
   ```
-  node ./Device/leftR2r001.js
+  node ./Examples-of-Azure-Digital-Twins/Device/leftR2r001.js
   ```
 
 * Run `rightR2r001` Device
   ```
-  node ./Device/rightR2r001.js
+  node ./Examples-of-Azure-Digital-Twins/Device/rightR2r001.js
   ```
 
 * Run `cuttingMotor001` Device
   ```
-  node ./Device/cuttingMotor001.js
+  node ./Examples-of-Azure-Digital-Twins/Device/cuttingMotor001.js
   ```
 
 * Run `lift` Device
   ```
-  node ./Device/lift.js
+  node ./Examples-of-Azure-Digital-Twins/Device/lift.js
   ```
 
 ## 11. Device & Dashboard
