@@ -410,6 +410,11 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
   ```
 
 ## 10. Start Device
+* Change directory
+  ```
+  cd ./Examples-of-Azure-Digital-Twins/Device
+  ```
+  
 * Install Package
   ```
   npm i
