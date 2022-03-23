@@ -57,7 +57,7 @@ The Digital Twins Definition Language (DTDL) is a language for describing models
       * [Visual Studio Code](https://code.visualstudio.com/)
       * [Postman](https://www.postman.com/)
     * Package and Language Version
-      * [npm](https://www.npmjs.com/get-npm)
+      * [npm v6.14.12](https://www.npmjs.com/get-npm)
       * [Node.js v14](https://nodejs.org/en/download/)
       * [vue v2.6.12](https://vuejs.org/)
   * Azure Funciton
