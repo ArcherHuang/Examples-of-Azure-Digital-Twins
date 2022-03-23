@@ -485,10 +485,6 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 
 ![](../Images/lift001.png)
 
-* Web ( The lift001 is located in room 110 )
-
-![](../Images/dashboard.png)
-
 * Threshold
 
 |        Item        | Threshold | Telemetry | isAlarm |
@@ -497,3 +493,7 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 | ST01 (溫度 Sensor) |     20    |     34    |    ✓    |
 | SV02 (電壓 Sensor) |     70    |     65    |         |
 | SI01 (電流 Sensor) |     20    |     4     |         |
+
+* Web ( The lift001 is located in room 110 )
+
+![](../Images/dashboard.png)
