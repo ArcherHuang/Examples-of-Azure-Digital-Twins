@@ -485,7 +485,7 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
 
 ![](../Images/lift001.png)
 
-* Web
+* Web ( The lift001 is located in room 110 )
 
 ![](../Images/dashboard.png)
 
