@@ -11,6 +11,7 @@
   - [8. Set Endpoint & Event Routes](#8-set-endpoint--event-routes)
   - [9. Frontend : Azure Map + Azure Digital Twin](#9-frontend--azure-map--azure-digital-twin)
   - [10. Start Device](#10-start-device)
+  - [11. Dashboard](#11-dashboard)
 
 # Prerequisites
 |      Category     |                                                      Item                                                      |
@@ -271,6 +272,8 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
     ```
   
 ## 7. Create & Deploy Azure Function
+* Install Azure Functions for Visual Studio Code
+  * https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions
 * Use VS Code to Upload Code
   * VS Code `Azure` > `Local Project`> `Initialize Project for Use with VS Code` > `Functions` > `Deploy to Function App...` > `+ Create new Function App in Azure... Advanced` > `Input Function Name` > `Node.js 14 LTS` > `Windows` > `Select Resource Group` > `East US` > `Consumption` > `+ Create new storage account` > `Input Storage Account Name` > `+ Create new Application Insights resource` > `Input Application Insights Resource Name`
 
@@ -315,7 +318,7 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
     ```
   * Set `Azure Digital Twin Host`
     ```
-    az functionapp config appsettings set --settings "ADT_Host=<HostUrl>" --name <FunctionName> --resource-group <ResourceGroup>
+    az functionapp config appsettings set --settings "ADT_Host=<HostName>" --name <FunctionName> --resource-group <ResourceGroup>
     ```
 
   * Set `Azure Map Primary Key`
@@ -476,7 +479,5 @@ az iot hub create --resource-group <ResourceGroup> --name <IoTHubName> --sku S1 
   node ./Device/lift.js
   ```
 
-## 11. Delete All Service
-```
-az group delete -n <ResourceGroup>
-```
+## 11. Dashboard
+![](../Images/dashboard.png)
