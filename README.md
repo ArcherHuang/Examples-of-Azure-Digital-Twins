@@ -30,6 +30,7 @@ flowchart LR
   F --> G
   N[Azure Active Directory] --> M[Postman] --> D
   O[Docker Hub] --> G
+  P[Azure CLI] --> D
 ```
 
 ## Cloud service used
