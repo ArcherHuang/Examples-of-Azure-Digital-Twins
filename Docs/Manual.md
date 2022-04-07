@@ -58,7 +58,7 @@
     ```
     az maps account keys list --name <MapAccount> --resource-group <ResourceGroup>
     ```
-  * [Tutorial](https://docs.microsoft.com/en-us/azure/azure-maps/tutorial-creator-indoor-maps)
+  * [Tutorial: Use Creator to create indoor maps](https://docs.microsoft.com/en-us/azure/azure-maps/tutorial-creator-indoor-maps)
     * Keep records: `Conversion ID`, `Dataset ID`, `Tileset ID`, `Stateset ID`
 
 ## 5. Create Azure Digital Twin & Initial Property
