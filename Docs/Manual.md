@@ -67,6 +67,11 @@
     ![](../Images/azure-map-primary-key.png)
   * [Tutorial: Use Creator to create indoor maps](https://docs.microsoft.com/en-us/azure/azure-maps/tutorial-creator-indoor-maps)
     * Keep records: `Conversion ID`, `Dataset ID`, `Tileset ID`, `Stateset ID`
+  * Online Tools
+    * [Use Creator to create Azure Indoor Maps](https://archerhuang.github.io/Azure-Indoor-Map-Tools/Creator-Create-Azure-Indoor-Map/#)
+      * Keep records: `Conversion ID`, `Dataset ID`, `Tileset ID`
+    * [Azure Map Style Rules](https://archerhuang.github.io/Azure-Indoor-Map-Tools/Set-Feature-Stateset/form_textarea/)
+      * Keep records: `Stateset ID`
 
 ## 5. Create Azure Digital Twin & Initial Property
 * Create Azure Digital Twin
