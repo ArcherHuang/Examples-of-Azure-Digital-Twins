@@ -1,9 +1,9 @@
 {
-  "azureFunctions.deploySubpath": "VSCode-Function/IoTHub_To_Adt",
-  "azureFunctions.postDeployTask": "npm install (functions)",
-  "azureFunctions.projectLanguage": "JavaScript",
-  "azureFunctions.projectRuntime": "~3",
-  "debug.internalConsoleOptions": "neverOpen",
-  "azureFunctions.projectSubpath": "VSCode-Function/IoTHub_To_Adt",
-  "azureFunctions.preDeployTask": "npm prune (functions)"
+    "azureFunctions.deploySubpath": "VSCode-Function/IoTHub_To_Adt",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectSubpath": "VSCode-Function/IoTHub_To_Adt",
+    "azureFunctions.preDeployTask": "npm prune (functions)"
 }
