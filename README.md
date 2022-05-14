@@ -8,7 +8,6 @@
 |  3 | CMS |      https://github.com/ArcherHuang/Examples-of-Azure-Digital-Twins/tree/CMS     |
 
 ## Contributors
-* [Lin, Hung-Wei](https://github.com/levanlin)
 * [Huang, Cheng-Chuan](https://github.com/ArcherHuang)
 
 ## License
