@@ -98,8 +98,8 @@ The sample repo contains:
 * [Step-By-Step Instructions](./Doc/SOP-for-Initiating-Services.md)
 
 # Contributing
-* [Lin, Hung-Wei](https://github.com/levanlin)
 * [Huang, Cheng-Chuan](https://github.com/ArcherHuang)
+* [Lin, Hung-Wei](https://github.com/levanlin)
 
 # License
 Azure Digital Twins for Azure Percepte is licensed under the [MIT](./LICENSE) license.
